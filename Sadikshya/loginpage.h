@@ -1,15 +1,14 @@
 #ifndef LOGINPAGE_H
 #define LOGINPAGE_H
 
-#include <QMainWindow>
-#include "admin.h"
-#include "customer.h"
+
+#include <QDialog>
 
 namespace Ui {
 class loginpage;
 }
 
-class loginpage : public QMainWindow
+class loginpage : public QDialog
 {
     Q_OBJECT
 
@@ -18,14 +17,14 @@ public:
     ~loginpage();
 
 private slots:
-    void on_adminbutton_clicked();
 
-    void on_customerbutton_clicked();
+    void on_pushButtonadmin_clicked();
+
+    void on_pushButton_custpmer_clicked();
 
 private:
     Ui::loginpage *ui;
-    admin *admin;
-    customer *customer;
+
 };
 
 #endif // LOGINPAGE_H

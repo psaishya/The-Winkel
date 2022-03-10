@@ -17,9 +17,8 @@ public:
     ~MainWindow();
 
 private slots:
-    //loginpage login;
 
-    void on_continuebutton_clicked();
+    void on_nextbutton_clicked();
 
 private:
     Ui::MainWindow *ui;

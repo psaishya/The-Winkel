@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>736</width>
-    <height>547</height>
+    <width>984</width>
+    <height>582</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,44 +17,45 @@
    <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="continuebutton">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>440</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CONTINUE</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>-40</y>
-      <width>691</width>
-      <height>581</height>
+      <x>0</x>
+      <y>-30</y>
+      <width>571</width>
+      <height>561</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>C:/Users/Lenovo/Downloads/Black and White Modern Minimalist Initials Logo (1).png</pixmap>
+     <pixmap>../pictures/Black and White Modern Minimalist Initials Logo (1).png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
-   <zorder>label</zorder>
-   <zorder>continuebutton</zorder>
+   <widget class="QPushButton" name="nextbutton">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>470</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>736</width>
+     <width>984</width>
      <height>21</height>
     </rect>
    </property>

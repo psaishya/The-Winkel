@@ -1,0 +1,11 @@
+release/admin.o
+release/customerregister.o
+release/customers.o
+release/loginpage.o
+release/main.o
+release/mainwindow.o
+release/moc_admin.o
+release/moc_customerregister.o
+release/moc_customers.o
+release/moc_loginpage.o
+release/moc_mainwindow.o

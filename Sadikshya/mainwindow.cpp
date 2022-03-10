@@ -1,6 +1,7 @@
- #include "mainwindow.h"
+#include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "loginpage.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -14,15 +15,11 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-
-void MainWindow::on_continuebutton_clicked()
+void MainWindow::on_nextbutton_clicked()
 {
     hide();
-    //loginpage login;
-    //login.setModal(false);
-    //login.exec();
-    login=new loginpage(this);
-    login->show();
+    loginpage Login;
+    Login.setModal(true);
+    Login.exec();
 }
 
