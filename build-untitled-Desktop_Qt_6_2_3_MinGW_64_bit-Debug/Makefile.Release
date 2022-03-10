@@ -262,13 +262,13 @@ release/moc_admin.cpp: ../Sadikshya/admin.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.2.3/mingw_64/bin/moc.exe
-	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -IC:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/Sadikshya -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\admin.h -o release\moc_admin.cpp
+	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include "E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -I"E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/Sadikshya" -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\admin.h -o release\moc_admin.cpp
 
 release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qdialog.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSql \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSqlDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCore \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCoreDepends \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qconfig-bootstrapped.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qconfig.h \
@@ -289,16 +289,12 @@ release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qglobalstatic.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnumeric.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnamespace.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qtmetamacros.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringview.h \
@@ -339,11 +335,175 @@ release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qmath.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringconverter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qset.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qassociativeiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbitarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qiodevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcbormap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamreader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfloat16.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcollator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineparser.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpointer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdiriterator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeasingcurve.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qendian.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfactoryinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileselector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QObject \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturewatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjnienvironment.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QScopedPointer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjniobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibrary.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibraryinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qversionnumber.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlockfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qloggingcategory.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qmargins.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmetaobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimetype.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpauseanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpluginloader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qprocess.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariantanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qreadwritelock.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qrect.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresource.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsavefile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsettings.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedmemory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsignalmapper.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsimd.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsocketnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstack.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstandardpaths.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstorageinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringlistmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporarydir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporaryfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimeline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimezone.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtranslator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwaitcondition.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDeadlineTimer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwineventnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qxmlstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtcoreversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriverplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlerror.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlfield.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlindex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrecord.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qpaintdevice.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpalette.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qrgb.h \
@@ -354,11 +514,7 @@ release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qtransform.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qregion.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qline.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpixmap.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfont.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfontmetrics.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfontinfo.h \
@@ -367,18 +523,6 @@ release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qevent.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qiodevice.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qpointer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qurl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariant.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qmap.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qhash.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qdebug.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextstream.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringconverter.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qset.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qeventpoint.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qvector2d.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qvectornd.h \
@@ -386,15 +530,34 @@ release/moc_customerregister.cpp: ../Sadikshya/customerregister.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputdevice.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qscreen.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QList \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QObject \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QRect \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSize \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlresult.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDebug \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qdialog.h \
 		release/moc_predefs.h \
 		C:/Qt/6.2.3/mingw_64/bin/moc.exe
-	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -IC:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/Sadikshya -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\customerregister.h -o release\moc_customerregister.cpp
+	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include "E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -I"E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/Sadikshya" -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\customerregister.h -o release\moc_customerregister.cpp
 
 release/moc_customers.cpp: ../Sadikshya/customers.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
@@ -524,9 +687,172 @@ release/moc_customers.cpp: ../Sadikshya/customers.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSql \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSqlDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCore \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCoreDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qassociativeiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbitarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcbormap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamreader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfloat16.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcollator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineparser.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdiriterator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeasingcurve.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qendian.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfactoryinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileselector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturewatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjnienvironment.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QScopedPointer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjniobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibrary.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibraryinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qversionnumber.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlockfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qloggingcategory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmetaobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimetype.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpauseanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpluginloader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qprocess.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariantanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qreadwritelock.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresource.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsavefile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsettings.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedmemory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsignalmapper.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsimd.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsocketnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstack.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstandardpaths.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstorageinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringlistmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporarydir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporaryfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimeline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimezone.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtranslator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwaitcondition.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDeadlineTimer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwineventnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qxmlstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtcoreversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriverplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlerror.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlfield.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlindex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrecord.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlresult.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDebug \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QFileInfo \
 		release/moc_predefs.h \
 		C:/Qt/6.2.3/mingw_64/bin/moc.exe
-	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -IC:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/Sadikshya -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\customers.h -o release\moc_customers.cpp
+	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include "E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -I"E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/Sadikshya" -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\customers.h -o release\moc_customers.cpp
 
 release/moc_loginpage.cpp: ../Sadikshya/loginpage.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
@@ -658,7 +984,7 @@ release/moc_loginpage.cpp: ../Sadikshya/loginpage.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
 		release/moc_predefs.h \
 		C:/Qt/6.2.3/mingw_64/bin/moc.exe
-	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -IC:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/Sadikshya -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\loginpage.h -o release\moc_loginpage.cpp
+	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include "E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -I"E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/Sadikshya" -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\loginpage.h -o release\moc_loginpage.cpp
 
 release/moc_mainwindow.cpp: ../Sadikshya/mainwindow.h \
 		../Sadikshya/loginpage.h \
@@ -795,7 +1121,7 @@ release/moc_mainwindow.cpp: ../Sadikshya/mainwindow.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
 		release/moc_predefs.h \
 		C:/Qt/6.2.3/mingw_64/bin/moc.exe
-	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -IC:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/Sadikshya -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\mainwindow.h -o release\moc_mainwindow.cpp
+	C:\Qt\6.2.3\mingw_64\bin\moc.exe $(DEFINES) --include "E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/build-untitled-Desktop_Qt_6_2_3_MinGW_64_bit-Debug/release/moc_predefs.h" -IC:/Qt/6.2.3/mingw_64/mkspecs/win32-g++ -I"E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/Sadikshya" -IC:/Qt/6.2.3/mingw_64/include -IC:/Qt/6.2.3/mingw_64/include/QtWidgets -IC:/Qt/6.2.3/mingw_64/include/QtGui -IC:/Qt/6.2.3/mingw_64/include/QtSql -IC:/Qt/6.2.3/mingw_64/include/QtCore -I. -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++ -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32 -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include -IC:/Qt/Tools/mingw900_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed -IC:/Qt/Tools/mingw900_64/x86_64-w64-mingw32/include ..\Sadikshya\mainwindow.h -o release\moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -965,52 +1291,15 @@ release/admin.o: ../Sadikshya/admin.cpp ../Sadikshya/admin.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_admin.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QFrame \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QMessageBox \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\admin.o ..\Sadikshya\admin.cpp
 
 release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/customerregister.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qdialog.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSql \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSqlDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCore \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCoreDepends \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qglobal.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qconfig-bootstrapped.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qconfig.h \
@@ -1031,16 +1320,12 @@ release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/custo
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qglobalstatic.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnumeric.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qversiontagging.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtgui-config.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qwidget.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectdefs.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnamespace.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qtmetamacros.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectdefs_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs_win.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qstring.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qchar.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringview.h \
@@ -1081,11 +1366,175 @@ release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/custo
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qmath.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qobject_impl.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qbindingstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qhash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariant.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdebug.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringconverter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qset.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcontiguouscache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qassociativeiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbitarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qiodevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcbormap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamreader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfloat16.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcollator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineparser.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmutex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresultstore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture_impl.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadpool.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthread.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdeadlinetimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpointer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdiriterator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeasingcurve.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qendian.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfactoryinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileselector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QObject \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturewatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjnienvironment.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QScopedPointer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjniobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibrary.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibraryinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qversionnumber.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlockfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qloggingcategory.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qmargins.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpaintdevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmetaobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimetype.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpauseanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpluginloader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qprocess.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariantanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qreadwritelock.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qrect.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qsize.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qpoint.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresource.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsavefile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsettings.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedmemory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsignalmapper.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsimd.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsocketnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstack.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstandardpaths.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstorageinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringlistmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporarydir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporaryfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimeline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimezone.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtranslator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwaitcondition.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDeadlineTimer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwineventnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qxmlstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtcoreversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriverplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlerror.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlfield.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlindex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrecord.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qtguiglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qtgui-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtwidgets-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qwindowdefs_win.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qpaintdevice.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpalette.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qcolor.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qrgb.h \
@@ -1096,11 +1545,7 @@ release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/custo
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qtransform.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpolygon.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qregion.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qline.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qpixmap.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedpointer_impl.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfont.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfontmetrics.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qfontinfo.h \
@@ -1109,18 +1554,6 @@ release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/custo
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qbitmap.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qkeysequence.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qevent.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qiodevice.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qpointer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qurl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariant.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qmap.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qshareddata_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qhash.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qdebug.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextstream.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringconverter.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qset.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcontiguouscache.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qeventpoint.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qvector2d.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qvectornd.h \
@@ -1128,13 +1561,34 @@ release/customerregister.o: ../Sadikshya/customerregister.cpp ../Sadikshya/custo
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputdevice.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qscreen.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QList \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QObject \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QRect \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSize \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_customerregister.h
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlresult.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDebug \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QFileInfo \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QDialog \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qdialog.h \
+		ui_customerregister.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\customerregister.o ..\Sadikshya\customerregister.cpp
 
 release/customers.o: ../Sadikshya/customers.cpp ../Sadikshya/customers.h \
@@ -1265,12 +1719,40 @@ release/customers.o: ../Sadikshya/customers.cpp ../Sadikshya/customers.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/QSizeF \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
-		ui_customers.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSql \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSqlDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCore \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCoreDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qassociativeiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbitarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcbormap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamreader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfloat16.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcollator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineparser.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
@@ -1283,27 +1765,127 @@ release/customers.o: ../Sadikshya/customers.cpp ../Sadikshya/customers.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QGroupBox \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qgroupbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdiriterator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeasingcurve.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qendian.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfactoryinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileselector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturewatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjnienvironment.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QScopedPointer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjniobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibrary.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibraryinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qversionnumber.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlockfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qloggingcategory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmetaobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimetype.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpauseanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpluginloader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qprocess.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariantanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qreadwritelock.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresource.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsavefile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsettings.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedmemory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsignalmapper.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsimd.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsocketnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstack.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstandardpaths.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstorageinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringlistmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporarydir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporaryfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimeline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimezone.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtranslator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwaitcondition.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDeadlineTimer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwineventnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qxmlstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtcoreversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriverplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlerror.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlfield.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlindex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrecord.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qvalidator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qrubberband.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLineEdit \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextcursor.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextformat.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpen.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextoption.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlresult.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDebug \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QFileInfo \
+		ui_customers.h \
+		../Sadikshya/customerregister.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QMessageBox \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmessagebox.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\customers.o ..\Sadikshya\customers.cpp
 
 release/loginpage.o: ../Sadikshya/loginpage.cpp ../Sadikshya/loginpage.h \
@@ -1435,11 +2017,42 @@ release/loginpage.o: ../Sadikshya/loginpage.cpp ../Sadikshya/loginpage.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/QTransform \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qnativeinterface.h \
 		ui_loginpage.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
+		../Sadikshya/admin.h \
+		../Sadikshya/customers.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSql \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/QtSqlDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCore \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QtCoreDepends \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstracteventdispatcher.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractitemmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractnativeeventfilter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qabstractproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qassociativeiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbasictimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbitarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbuffer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qbytearraymatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcache.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcalendar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdatetime.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborcommon.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qregularexpression.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/quuid.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcbormap.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamreader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfloat16.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcborstreamwriter.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcollator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcommandlineparser.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
@@ -1452,21 +2065,123 @@ release/loginpage.o: ../Sadikshya/loginpage.cpp ../Sadikshya/loginpage.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
 		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractbutton.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qconcatenatetablesproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qcryptographichash.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfiledevice.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qdiriterator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qeasingcurve.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qendian.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfactoryinterface.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfileselector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QStringList \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfilesystemwatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturesynchronizer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuturewatcher.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qidentityproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qitemselectionmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjnienvironment.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QScopedPointer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjniobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonarray.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonvalue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsondocument.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qjsonobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibrary.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlibraryinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qversionnumber.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qlockfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qloggingcategory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmessageauthenticationcode.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmetaobject.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedata.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimedatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qmimetype.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qobjectcleanuphandler.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qoperatingsystemversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qparallelanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpauseanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpluginloader.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qprocess.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpromise.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qproperty.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyprivate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qpropertyanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvariantanimation.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qqueue.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qrandom.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qreadwritelock.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qresource.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsavefile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qscopedvaluerollback.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialanimationgroup.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsequentialiterable.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsettings.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsharedmemory.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsignalmapper.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsimd.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsocketnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsortfilterproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstack.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstandardpaths.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstorageinfo.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qstringlistmodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qsystemsemaphore.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporarydir.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtemporaryfile.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtextboundaryfinder.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadstorage.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimeline.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimer.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtimezone.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtranslator.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtransposeproxymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qurlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qvector.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwaitcondition.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDeadlineTimer \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qwineventnotifier.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qxmlstream.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/qtcoreversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlglobal.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsql-config.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldatabase.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriver.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqldriverplugin.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlerror.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlfield.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlindex.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrecord.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquery.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlquerymodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaldelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleditemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyleoption.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractspinbox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtGui/qvalidator.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
-		../Sadikshya/admin.h \
-		../Sadikshya/customers.h
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractslider.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstyle.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabbar.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qrubberband.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlistview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractitemview.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qcombobox.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlrelationaltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqltablemodel.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qsqlresult.h \
+		C:/Qt/6.2.3/mingw_64/include/QtSql/qtsqlversion.h \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QDebug \
+		C:/Qt/6.2.3/mingw_64/include/QtCore/QFileInfo
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\loginpage.o ..\Sadikshya\loginpage.cpp
 
 release/main.o: ../Sadikshya/main.cpp ../Sadikshya/mainwindow.h \
@@ -1757,45 +2472,7 @@ release/mainwindow.o: ../Sadikshya/mainwindow.cpp ../Sadikshya/mainwindow.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/6.2.3/mingw_64/include/QtGui/qicon.h \
-		ui_mainwindow.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/QVariant \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/QAction \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qaction.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QApplication \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qeventloop.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qcoreapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfutureinterface.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qmutex.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qresultstore.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qfuture_impl.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qthreadpool.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qthread.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qdeadlinetimer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qelapsedtimer.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qrunnable.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qexception.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qinputmethod.h \
-		C:/Qt/6.2.3/mingw_64/include/QtCore/qlocale.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qguiapplication_platform.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QLabel \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qlabel.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qframe.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qpicture.h \
-		C:/Qt/6.2.3/mingw_64/include/QtGui/qtextdocument.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QMenu \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmenu.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QMenuBar \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qmenubar.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QPushButton \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QStatusBar \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/qstatusbar.h \
-		C:/Qt/6.2.3/mingw_64/include/QtWidgets/QWidget
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o release\mainwindow.o ..\Sadikshya\mainwindow.cpp
 
 release/moc_admin.o: release/moc_admin.cpp 

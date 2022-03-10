@@ -35,10 +35,10 @@ public:
     {
         if (customers->objectName().isEmpty())
             customers->setObjectName(QString::fromUtf8("customers"));
-        customers->resize(809, 531);
+        customers->resize(732, 491);
         groupBox = new QGroupBox(customers);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(210, 110, 531, 391));
+        groupBox->setGeometry(QRect(100, 40, 531, 391));
         registerbutton = new QPushButton(groupBox);
         registerbutton->setObjectName(QString::fromUtf8("registerbutton"));
         registerbutton->setGeometry(QRect(300, 330, 101, 24));
