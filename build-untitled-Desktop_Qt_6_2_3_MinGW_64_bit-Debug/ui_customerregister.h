@@ -44,7 +44,6 @@ public:
     QLineEdit *inputpassword;
     QLineEdit *inputconfirm;
     QPushButton *pushbutton_register;
-    QPushButton *confirmButton;
     QLabel *usernametaken;
 
     void setupUi(QDialog *customerregister)
@@ -132,9 +131,6 @@ public:
         pushbutton_register = new QPushButton(customerregister);
         pushbutton_register->setObjectName(QString::fromUtf8("pushbutton_register"));
         pushbutton_register->setGeometry(QRect(410, 350, 111, 29));
-        confirmButton = new QPushButton(customerregister);
-        confirmButton->setObjectName(QString::fromUtf8("confirmButton"));
-        confirmButton->setGeometry(QRect(410, 290, 51, 21));
         usernametaken = new QLabel(customerregister);
         usernametaken->setObjectName(QString::fromUtf8("usernametaken"));
         usernametaken->setGeometry(QRect(10, 360, 301, 16));
@@ -154,7 +150,6 @@ public:
         label_4->setText(QCoreApplication::translate("customerregister", "PASSWORD", nullptr));
         label_3->setText(QCoreApplication::translate("customerregister", "CONFRIM PASSWORD", nullptr));
         pushbutton_register->setText(QCoreApplication::translate("customerregister", "Register", nullptr));
-        confirmButton->setText(QCoreApplication::translate("customerregister", "Confirm", nullptr));
         usernametaken->setText(QString());
     } // retranslateUi
 

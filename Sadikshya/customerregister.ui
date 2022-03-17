@@ -137,19 +137,6 @@
     <string>Register</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="confirmButton">
-   <property name="geometry">
-    <rect>
-     <x>410</x>
-     <y>290</y>
-     <width>51</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Confirm</string>
-   </property>
-  </widget>
   <widget class="QLabel" name="usernametaken">
    <property name="geometry">
     <rect>
