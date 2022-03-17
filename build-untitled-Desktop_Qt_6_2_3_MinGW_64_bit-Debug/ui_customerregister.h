@@ -44,18 +44,19 @@ public:
     QLineEdit *inputpassword;
     QLineEdit *inputconfirm;
     QPushButton *pushbutton_register;
+    QLabel *usernametaken;
 
     void setupUi(QDialog *customerregister)
     {
         if (customerregister->objectName().isEmpty())
             customerregister->setObjectName(QString::fromUtf8("customerregister"));
-        customerregister->resize(571, 395);
+        customerregister->resize(554, 395);
         groupBox = new QGroupBox(customerregister);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
         groupBox->setGeometry(QRect(80, 60, 331, 281));
         layoutWidget = new QWidget(groupBox);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(30, 50, 91, 71));
+        layoutWidget->setGeometry(QRect(30, 50, 91, 61));
         verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -108,7 +109,7 @@ public:
 
         layoutWidget3 = new QWidget(groupBox);
         layoutWidget3->setObjectName(QString::fromUtf8("layoutWidget3"));
-        layoutWidget3->setGeometry(QRect(180, 140, 127, 100));
+        layoutWidget3->setGeometry(QRect(180, 140, 127, 116));
         verticalLayout_4 = new QVBoxLayout(layoutWidget3);
         verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -129,7 +130,10 @@ public:
 
         pushbutton_register = new QPushButton(customerregister);
         pushbutton_register->setObjectName(QString::fromUtf8("pushbutton_register"));
-        pushbutton_register->setGeometry(QRect(182, 350, 111, 29));
+        pushbutton_register->setGeometry(QRect(410, 350, 111, 29));
+        usernametaken = new QLabel(customerregister);
+        usernametaken->setObjectName(QString::fromUtf8("usernametaken"));
+        usernametaken->setGeometry(QRect(10, 360, 301, 16));
 
         retranslateUi(customerregister);
 
@@ -146,6 +150,7 @@ public:
         label_4->setText(QCoreApplication::translate("customerregister", "PASSWORD", nullptr));
         label_3->setText(QCoreApplication::translate("customerregister", "CONFRIM PASSWORD", nullptr));
         pushbutton_register->setText(QCoreApplication::translate("customerregister", "Register", nullptr));
+        usernametaken->setText(QString());
     } // retranslateUi
 
 };

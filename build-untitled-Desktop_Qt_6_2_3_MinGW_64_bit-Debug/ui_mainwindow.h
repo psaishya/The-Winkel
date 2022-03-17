@@ -46,8 +46,10 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
+
         label->setGeometry(QRect(0, 0, 1366, 768));
         label->setPixmap(QPixmap(QString::fromUtf8("../pictures/final logo page.jpg")));
+
         label->setScaledContents(true);
         layoutWidget = new QWidget(centralwidget);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
@@ -65,7 +67,9 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
+
         menubar->setGeometry(QRect(0, 0, 1366, 22));
+
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName(QString::fromUtf8("statusbar"));

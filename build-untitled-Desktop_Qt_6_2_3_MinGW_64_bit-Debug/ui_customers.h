@@ -34,6 +34,7 @@ public:
     {
         if (customers->objectName().isEmpty())
             customers->setObjectName(QString::fromUtf8("customers"));
+
         customers->resize(1366, 748);
         QIcon icon;
         icon.addFile(QString::fromUtf8("../pictures/minilogo_g9m_icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
@@ -47,6 +48,7 @@ public:
         background->setWordWrap(false);
         background->setIndent(0);
         inputusername = new QLineEdit(customers);
+
         inputusername->setObjectName(QString::fromUtf8("inputusername"));
         inputusername->setGeometry(QRect(270, 210, 241, 41));
         QFont font;

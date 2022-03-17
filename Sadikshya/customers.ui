@@ -6,8 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
+<<<<<<< HEAD
     <width>1366</width>
     <height>748</height>
+=======
+    <width>732</width>
+    <height>491</height>
+>>>>>>> soniya
    </rect>
   </property>
   <property name="windowTitle">
@@ -23,10 +28,17 @@
    </property>
    <property name="geometry">
     <rect>
+<<<<<<< HEAD
      <x>0</x>
      <y>0</y>
      <width>1366</width>
      <height>748</height>
+=======
+     <x>100</x>
+     <y>40</y>
+     <width>531</width>
+     <height>391</height>
+>>>>>>> soniya
     </rect>
    </property>
    <property name="text">
