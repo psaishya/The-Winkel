@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>571</width>
+    <width>554</width>
     <height>395</height>
    </rect>
   </property>
@@ -31,7 +31,7 @@
       <x>30</x>
       <y>50</y>
       <width>91</width>
-      <height>71</height>
+      <height>61</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -108,7 +108,7 @@
       <x>180</x>
       <y>140</y>
       <width>127</width>
-      <height>100</height>
+      <height>116</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -127,7 +127,7 @@
   <widget class="QPushButton" name="pushbutton_register">
    <property name="geometry">
     <rect>
-     <x>182</x>
+     <x>410</x>
      <y>350</y>
      <width>111</width>
      <height>29</height>
@@ -135,6 +135,19 @@
    </property>
    <property name="text">
     <string>Register</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="usernametaken">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>301</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

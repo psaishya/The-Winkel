@@ -8,7 +8,11 @@ customerregister::customerregister(QWidget *parent) :
 {
     ui->setupUi(this);
     mydb =QSqlDatabase :: addDatabase("QSQLITE");
+<<<<<<< HEAD
     mydb.setDatabaseName("D:/hh/The-Winkel/database/customer.db");
+=======
+    mydb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/customer.db");
+>>>>>>> sadikshya
     if (mydb.open())
     {
         qDebug()<<"opened\n";
@@ -16,7 +20,8 @@ customerregister::customerregister(QWidget *parent) :
     else {
         qDebug()<<"Failed";
     }
-    mydb.close();
+
+
 }
 
 customerregister::~customerregister()
@@ -27,24 +32,75 @@ customerregister::~customerregister()
 
 void customerregister::on_pushbutton_register_clicked()
 {
+
     QString name,username, contact,password, repassword;
     name =ui->inputname->text();
     contact =ui->inputcontact->text();
+
     password =ui->inputpassword->text();
     repassword =ui->inputconfirm->text();
+
     username =ui->inputusername->text();
-    QSqlQuery qry2;
-    if (password!=repassword){
-        QMessageBox :: warning (this,"","re confirm your password ");
-    }
-    else{
-         mydb.open();
-         qry2.exec("insert into register (name,contact,username,password) VALUES ('"+name+"','"+contact+"','"+username+"','"+password+"')");
-         qDebug()<<qry2.lastError();
-         qry2.finish();
-         QMessageBox :: information (this,"","congrats you have been registered");
-         hide();
+    mydb.open();
+    QSqlQuery uncheck;
+    if(uncheck.exec("SELECT * FROM REGISTER WHERE Username='" +username+ "' "))
+    {
+        int count=0;
+        while(uncheck.next())
+        {
+            count++;
+        }
+        if (count>=1)
+        {
+
+            ui->usernametaken->setText("Username already taken. Choose another username.");
+
+
+        }
+        else if(count<1)
+        {
+             ui->usernametaken->setText("");
+             if (password=="")
+             {
+                 QMessageBox :: warning (this,"","Enter a proper password ");
+                 //ui->pushbutton_register->setDisabled(true);
+             }
+
+             if (password==repassword){
+                 QSqlQuery qry2;
+                 if (mydb.open())
+                 {
+                     qDebug()<<"opened\n";
+                 }
+                 else {
+                     qDebug()<<"Failed";
+                 }
+                 mydb.open();
+                  if(qry2.exec("INSERT INTO REGISTER (name,contact,username,password) VALUES ('"+name+"','"+contact+"','"+username+"','"+password+"')"))
+                     {
+                          QMessageBox :: information (this,"Welcome!","Congrats you have been registered");
+                  }
+                  else{
+                      QMessageBox :: warning (this,"!!!","Failed to register. Try again.");
+                      hide();
+                  }
+                  qDebug()<<qry2.lastError();
+                  qry2.finish();
+                      hide();
+             }
+             else{
+                 QMessageBox :: warning (this,"","re confirm your password ");
+             }
+
+        }
+
 
     }
+    uncheck.finish();
+}
+
+void customerregister::on_confirmButton_clicked()
+{
+
 }
 

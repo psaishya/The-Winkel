@@ -10,7 +10,7 @@ customers::customers(QWidget *parent) :
 {
     ui->setupUi(this);
     mydb =QSqlDatabase :: addDatabase("QSQLITE");
-    mydb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/qt/winkel/The-Winkel/database/customer.db");
+    mydb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/customer.db");
     if (mydb.open())
     {
         qDebug()<<"opened\n";
@@ -18,8 +18,8 @@ customers::customers(QWidget *parent) :
     else {
         qDebug()<<"Failed";
     }
-    mydb.close();
-
+    //mydb.close();
+    //ui->inputpassword->setDisabled(true);
 }
 
 customers::~customers()
@@ -42,30 +42,51 @@ void customers::on_registerbutton_clicked()
 void customers::on_loginbutton_clicked()
 {
     QString username, password;
+
     username =ui->inputusername->text();
     password =ui->inputpassword->text();
-    mydb.open();
+    if (!mydb.open())
+    {
+        qDebug()<<"failed to connect\n";
+    }
+
     QSqlQuery qry;
+
+
+    mydb.open();
+    //QSqlQuery qry;
 
    if (qry.exec(" select * from register where username = '"+username+"' and password = '"+password+"'"))
     {
-            QString username_db;
-            QString password_db;
+            //QString username_db;
+            //QString password_db;
+            int count=0;
 
                 while (qry.next()){
-                username_db = qry.value(2).toString();
-                password_db = qry.value(3).toString();
+                    count ++;
+                 //username_db = qry.value(2).toString();
+                // password_db = qry.value(3).toString();
                 }
-                if (username_db==username && password_db==password){
+               //if (username_db==username && password_db==password){
+               //      QMessageBox :: information (this,"","Welcome to customer interface ");
+              // }
+               //else
+                //     QMessageBox :: warning (this,"","try again ");
+                if(count==1)
+                {
                      QMessageBox :: information (this,"","Welcome to customer interface ");
                 }
-                else
-                     QMessageBox :: warning (this,"","try again ");
-                qry.finish();
+                else if (count<1)
+                {
+                    QMessageBox :: warning (this,"Failed","Incorrect username or password. Try again ");
+                }
 
-
+   // mydb.close();
     }
+   qry.finish();
 
-   mydb.close();
 }
+
+
+
 

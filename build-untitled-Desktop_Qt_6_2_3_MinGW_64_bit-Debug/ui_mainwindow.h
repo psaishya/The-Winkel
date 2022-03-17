@@ -42,7 +42,7 @@ public:
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         label = new QLabel(centralwidget);
         label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(0, -30, 991, 601));
+        label->setGeometry(QRect(0, -30, 571, 561));
         label->setPixmap(QPixmap(QString::fromUtf8("../pictures/Black and White Modern Minimalist Initials Logo (1).png")));
         label->setScaledContents(true);
         nextbutton = new QPushButton(centralwidget);
@@ -51,7 +51,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
-        menubar->setGeometry(QRect(0, 0, 984, 25));
+        menubar->setGeometry(QRect(0, 0, 984, 21));
         menuTHE_WINKEL = new QMenu(menubar);
         menuTHE_WINKEL->setObjectName(QString::fromUtf8("menuTHE_WINKEL"));
         MainWindow->setMenuBar(menubar);

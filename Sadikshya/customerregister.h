@@ -22,6 +22,10 @@ private slots:
 
     void on_pushbutton_register_clicked();
 
+    void on_pw_clicked();
+
+    void on_confirmButton_clicked();
+
 private:
     Ui::customerregister *ui;
     QSqlDatabase mydb;
