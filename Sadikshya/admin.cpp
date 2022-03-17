@@ -1,5 +1,6 @@
 #include "admin.h"
 #include "ui_admin.h"
+#include "adminmenu.h"
 #include <QMessageBox>
 
 admin::admin(QWidget *parent) :
@@ -37,6 +38,10 @@ void admin::on_loginbutton_clicked()
     if(password=="admin")
     {
         ui->msglabel->setText("Login successful");
+        adminmenu admenu;
+        admenu.setModal(true);
+        admenu.exec();
+
         //break;
     }
 
