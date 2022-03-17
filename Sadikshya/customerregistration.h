@@ -2,6 +2,9 @@
 #define CUSTOMERREGISTRATION_H
 
 #include <QDialog>
+#include <QtSql>
+#include <QDebug>
+#include <QFileInfo>
 
 namespace Ui {
 class customerregistration;
@@ -20,6 +23,8 @@ private slots:
 
 private:
     Ui::customerregistration *ui;
+    QSqlDatabase mydb;
+
 };
 
 #endif // CUSTOMERREGISTRATION_H

@@ -6,45 +6,61 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>736</width>
-    <height>547</height>
+    <width>1366</width>
+    <height>768</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>THE  WINKEL</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <property name="animated">
    <bool>true</bool>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="continuebutton">
-    <property name="geometry">
-     <rect>
-      <x>590</x>
-      <y>440</y>
-      <width>80</width>
-      <height>24</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>CONTINUE</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>0</x>
       <y>0</y>
-      <width>511</width>
-      <height>531</height>
+      <width>1366</width>
+      <height>768</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../pictures/Black and White Modern Minimalist Initials Logo (1).png</pixmap>
+     <pixmap>../pictures/final logo page.jpg</pixmap>
     </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>670</y>
+      <width>255</width>
+      <height>42</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QCommandLinkButton" name="Login">
+       <property name="font">
+        <font/>
+       </property>
+       <property name="text">
+        <string>Proceed to login</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
@@ -52,16 +68,10 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>736</width>
-     <height>21</height>
+     <width>1366</width>
+     <height>22</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuTHE_WINKEL">
-    <property name="title">
-     <string>THE WINKEL</string>
-    </property>
-   </widget>
-   <addaction name="menuTHE_WINKEL"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
