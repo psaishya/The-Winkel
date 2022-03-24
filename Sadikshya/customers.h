@@ -21,14 +21,13 @@ public:
 
 private slots:
 
-
-    void on_registerbutton_clicked();
-
     void on_loginbutton_clicked();
+
+    void on_commandLinkButton_clicked();
 
 private:
     Ui::customers *ui;
-    QSqlDatabase mydb;
+    QSqlDatabase customerdb;
 
 };
 

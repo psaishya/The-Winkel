@@ -6,10 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-
     <width>1366</width>
     <height>748</height>
-
    </rect>
   </property>
   <property name="windowTitle">
@@ -25,12 +23,10 @@
    </property>
    <property name="geometry">
     <rect>
-
      <x>0</x>
      <y>0</y>
      <width>1366</width>
      <height>748</height>
-
     </rect>
    </property>
    <property name="text">
@@ -136,20 +132,14 @@
     <string>Login</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QCommandLinkButton" name="commandLinkButton">
    <property name="geometry">
     <rect>
-     <x>310</x>
-     <y>440</y>
-     <width>181</width>
-     <height>24</height>
+     <x>280</x>
+     <y>460</y>
+     <width>251</width>
+     <height>41</height>
     </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>12</pointsize>
-     <underline>true</underline>
-    </font>
    </property>
    <property name="text">
     <string>Haven't registered yet?</string>

@@ -12,18 +12,24 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QTableView>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_viewproduct
 {
 public:
+    QTableView *tableView;
 
     void setupUi(QDialog *viewproduct)
     {
         if (viewproduct->objectName().isEmpty())
             viewproduct->setObjectName(QString::fromUtf8("viewproduct"));
-        viewproduct->resize(400, 300);
+        viewproduct->resize(500, 369);
+        tableView = new QTableView(viewproduct);
+        tableView->setObjectName(QString::fromUtf8("tableView"));
+        tableView->setGeometry(QRect(0, 0, 501, 371));
 
         retranslateUi(viewproduct);
 

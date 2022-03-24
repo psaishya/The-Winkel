@@ -7,13 +7,13 @@ customerregister::customerregister(QWidget *parent) :
     ui(new Ui::customerregister)
 {
     ui->setupUi(this);
-    mydb =QSqlDatabase :: addDatabase("QSQLITE");
+    customerdb =QSqlDatabase :: addDatabase("QSQLITE");
 
-    mydb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/customer.db");
+   customerdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/customer.db");
 
 
 
-    if (mydb.open())
+    if (customerdb.open())
     {
         qDebug()<<"opened\n";
     }
@@ -27,7 +27,7 @@ customerregister::customerregister(QWidget *parent) :
 customerregister::~customerregister()
 {
     delete ui;
-    mydb.close();
+    customerdb.close();
 }
 
 void customerregister::on_pushbutton_register_clicked()
@@ -41,7 +41,7 @@ void customerregister::on_pushbutton_register_clicked()
     repassword =ui->inputconfirm->text();
 
     username =ui->inputusername->text();
-    mydb.open();
+    customerdb.open();
     QSqlQuery uncheck;
     if(uncheck.exec("SELECT * FROM REGISTER WHERE Username='" +username+ "' "))
     {
@@ -68,14 +68,14 @@ void customerregister::on_pushbutton_register_clicked()
 
              if (password==repassword){
                  QSqlQuery qry2;
-                 if (mydb.open())
+                 if (customerdb.open())
                  {
                      qDebug()<<"opened\n";
                  }
                  else {
                      qDebug()<<"Failed";
                  }
-                 mydb.open();
+                 customerdb.open();
                   if(qry2.exec("INSERT INTO REGISTER (name,contact,username,password) VALUES ('"+name+"','"+contact+"','"+username+"','"+password+"')"))
                      {
                           QMessageBox :: information (this,"Welcome!","Congrats you have been registered");
@@ -99,8 +99,5 @@ void customerregister::on_pushbutton_register_clicked()
     uncheck.finish();
 }
 
-void customerregister::on_confirmButton_clicked()
-{
 
-}
 

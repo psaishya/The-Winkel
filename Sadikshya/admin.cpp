@@ -33,7 +33,7 @@ void admin::on_checkusernamebutton_clicked()
 
 void admin::on_loginbutton_clicked()
 {
-    ui->inputpassword->setDisabled(false);
+    //ui->inputpassword->setDisabled(false);
     password=ui->inputpassword->text();
     if(password=="admin")
     {

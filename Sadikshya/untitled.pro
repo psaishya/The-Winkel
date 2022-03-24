@@ -12,37 +12,40 @@ SOURCES += \
     addproduct.cpp \
     admin.cpp \
     adminmenu.cpp \
+    customermenu.cpp \
     customerregister.cpp \
     customers.cpp \
-    deleteproduct.cpp \
     loginpage.cpp \
     main.cpp \
     mainwindow.cpp \
     modifyproduct.cpp \
+    viewcustomer.cpp \
     viewproduct.cpp
 
 HEADERS += \
     addproduct.h \
     admin.h \
     adminmenu.h \
+    customermenu.h \
     customerregister.h \
     customers.h \
-    deleteproduct.h \
     loginpage.h \
     mainwindow.h \
     modifyproduct.h \
+    viewcustomer.h \
     viewproduct.h
 
 FORMS += \
     addproduct.ui \
     admin.ui \
     adminmenu.ui \
+    customermenu.ui \
     customerregister.ui \
     customers.ui \
-    deleteproduct.ui \
     loginpage.ui \
     mainwindow.ui \
     modifyproduct.ui \
+    viewcustomer.ui \
     viewproduct.ui
 
 # Default rules for deployment.

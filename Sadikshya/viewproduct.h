@@ -3,6 +3,10 @@
 
 #include <QDialog>
 
+#include<QtSql>
+#include<QDebug>
+#include<QFileInfo>
+
 namespace Ui {
 class viewproduct;
 }
@@ -17,6 +21,7 @@ public:
 
 private:
     Ui::viewproduct *ui;
+    QSqlDatabase productdb;
 };
 
 #endif // VIEWPRODUCT_H

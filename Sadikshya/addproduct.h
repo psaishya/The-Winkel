@@ -23,6 +23,14 @@ private slots:
 
     void on_pushButtonupdate_clicked();
 
+    void on_pushButtondelete_clicked();
+
+    void on_cbox_currentTextChanged(const QString &arg1);
+
+    void on_cbox_activated(int index);
+
+    void on_showbutton_clicked();
+
 private:
     Ui::addproduct *ui;
       QSqlDatabase productdb;

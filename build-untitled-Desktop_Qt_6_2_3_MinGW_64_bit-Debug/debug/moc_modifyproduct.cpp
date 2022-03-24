@@ -76,7 +76,7 @@ void modifyproduct::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         switch (_id) {
         case 0: _t->on_pushButtonadd_clicked(); break;
         case 1: _t->on_pushButtonview_clicked(); break;
-        case 2: _t->on_pushButtondelete_clicked(); break;
+        //case 2: _t->on_pushButtondelete_clicked(); break;
         default: ;
         }
     }

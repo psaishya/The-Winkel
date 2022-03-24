@@ -24,11 +24,11 @@ private slots:
 
     void on_pw_clicked();
 
-    void on_confirmButton_clicked();
+
 
 private:
     Ui::customerregister *ui;
-    QSqlDatabase mydb;
+    QSqlDatabase customerdb;
 };
 
 #endif // CUSTOMERREGISTER_H

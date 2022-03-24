@@ -12,6 +12,7 @@
 #include <QtCore/QVariant>
 #include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QCommandLinkButton>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -28,7 +29,7 @@ public:
     QLabel *passwordlabel;
     QLineEdit *inputpassword;
     QPushButton *loginbutton;
-    QLabel *label;
+    QCommandLinkButton *commandLinkButton;
 
     void setupUi(QDialog *customers)
     {
@@ -71,13 +72,9 @@ public:
         QFont font1;
         font1.setPointSize(18);
         loginbutton->setFont(font1);
-        label = new QLabel(customers);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(310, 440, 181, 24));
-        QFont font2;
-        font2.setPointSize(12);
-        font2.setUnderline(true);
-        label->setFont(font2);
+        commandLinkButton = new QCommandLinkButton(customers);
+        commandLinkButton->setObjectName(QString::fromUtf8("commandLinkButton"));
+        commandLinkButton->setGeometry(QRect(280, 460, 251, 41));
 
         retranslateUi(customers);
 
@@ -91,7 +88,7 @@ public:
         usernamelabel->setText(QCoreApplication::translate("customers", "Username", nullptr));
         passwordlabel->setText(QCoreApplication::translate("customers", "Password", nullptr));
         loginbutton->setText(QCoreApplication::translate("customers", "Login", nullptr));
-        label->setText(QCoreApplication::translate("customers", "Haven't registered yet?", nullptr));
+        commandLinkButton->setText(QCoreApplication::translate("customers", "Haven't registered yet?", nullptr));
     } // retranslateUi
 
 };

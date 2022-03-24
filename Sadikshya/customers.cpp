@@ -2,6 +2,7 @@
 #include "ui_customers.h"
 #include "customerregister.h"
 #include <QMessageBox>
+#include "customermenu.h"
 
 
 customers::customers(QWidget *parent) :
@@ -9,34 +10,24 @@ customers::customers(QWidget *parent) :
     ui(new Ui::customers)
 {
     ui->setupUi(this);
-    mydb =QSqlDatabase :: addDatabase("QSQLITE");
-    mydb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/customer.db");
-
-    if (mydb.open())
+    customerdb =QSqlDatabase :: addDatabase("QSQLITE");
+    customerdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/customer.db");
+    if (customerdb.open())
     {
         qDebug()<<"opened\n";
     }
     else {
         qDebug()<<"Failed";
     }
-    //mydb.close();
+    //customerdb.close();
     //ui->inputpassword->setDisabled(true);
 }
 
 customers::~customers()
 {
     delete ui;    
-    mydb.close();
+    customerdb.close();
 
-}
-
-
-
-void customers::on_registerbutton_clicked()
-{
-    customerregister registeer;
-    registeer.setModal(true);
-    registeer.exec();
 }
 
 
@@ -46,7 +37,7 @@ void customers::on_loginbutton_clicked()
 
     username =ui->inputusername->text();
     password =ui->inputpassword->text();
-    if (!mydb.open())
+    if (!customerdb.open())
     {
         qDebug()<<"failed to connect\n";
     }
@@ -54,7 +45,7 @@ void customers::on_loginbutton_clicked()
     QSqlQuery qry;
 
 
-    mydb.open();
+    customerdb.open();
     //QSqlQuery qry;
 
    if (qry.exec(" select * from register where username = '"+username+"' and password = '"+password+"'"))
@@ -76,18 +67,23 @@ void customers::on_loginbutton_clicked()
                 if(count==1)
                 {
                      QMessageBox :: information (this,"","Welcome to customer interface ");
+                     customermenu cmenu;
+                     cmenu.setModal(true);
+                     cmenu.exec();
                 }
                 else if (count<1)
                 {
                     QMessageBox :: warning (this,"Failed","Incorrect username or password. Try again ");
                 }
-
-   // mydb.close();
     }
    qry.finish();
 
 }
 
-
-
+void customers::on_commandLinkButton_clicked()
+{
+    customerregister registeer;
+    registeer.setModal(true);
+    registeer.exec();
+}
 

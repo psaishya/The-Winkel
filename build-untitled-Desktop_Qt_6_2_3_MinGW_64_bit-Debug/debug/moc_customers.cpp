@@ -23,20 +23,20 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_customers_t {
     const uint offsetsAndSize[8];
-    char stringdata0[60];
+    char stringdata0[63];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(offsetof(qt_meta_stringdata_customers_t, stringdata0) + ofs), len 
 static const qt_meta_stringdata_customers_t qt_meta_stringdata_customers = {
     {
 QT_MOC_LITERAL(0, 9), // "customers"
-QT_MOC_LITERAL(10, 25), // "on_registerbutton_clicked"
-QT_MOC_LITERAL(36, 0), // ""
-QT_MOC_LITERAL(37, 22) // "on_loginbutton_clicked"
+QT_MOC_LITERAL(10, 22), // "on_loginbutton_clicked"
+QT_MOC_LITERAL(33, 0), // ""
+QT_MOC_LITERAL(34, 28) // "on_commandLinkButton_clicked"
 
     },
-    "customers\0on_registerbutton_clicked\0"
-    "\0on_loginbutton_clicked"
+    "customers\0on_loginbutton_clicked\0\0"
+    "on_commandLinkButton_clicked"
 };
 #undef QT_MOC_LITERAL
 
@@ -70,8 +70,8 @@ void customers::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         auto *_t = static_cast<customers *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_registerbutton_clicked(); break;
-        case 1: _t->on_loginbutton_clicked(); break;
+        case 0: _t->on_loginbutton_clicked(); break;
+        case 1: _t->on_commandLinkButton_clicked(); break;
         default: ;
         }
     }

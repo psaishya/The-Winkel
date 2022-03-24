@@ -1,7 +1,7 @@
 #include "adminmenu.h"
 #include "ui_adminmenu.h"
 #include "modifyproduct.h"
-
+#include "viewcustomer.h"
 adminmenu::adminmenu(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::adminmenu)
@@ -24,6 +24,8 @@ void adminmenu::on_pushButtonmodify_clicked()
 
 void adminmenu::on_pushButtonview_clicked()
 {
-
+    viewcustomer vcustomer;
+    vcustomer.setModal(true);
+    vcustomer.exec();
 }
 

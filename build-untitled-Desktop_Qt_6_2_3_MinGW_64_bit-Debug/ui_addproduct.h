@@ -11,10 +11,13 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QListView>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QRadioButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -37,15 +40,21 @@ public:
     QLineEdit *inputpname;
     QLineEdit *inputpcompany;
     QLineEdit *inputpprice;
-    QLineEdit *inputpstatus;
     QPushButton *pushButtonenter;
     QPushButton *pushButtonupdate;
+    QPushButton *pushButtondelete;
+    QListView *listView;
+    QLabel *label_7;
+    QRadioButton *available;
+    QRadioButton *unavailable;
+    QComboBox *cbox;
+    QPushButton *showbutton;
 
     void setupUi(QDialog *addproduct)
     {
         if (addproduct->objectName().isEmpty())
             addproduct->setObjectName(QString::fromUtf8("addproduct"));
-        addproduct->resize(540, 343);
+        addproduct->resize(659, 343);
         label_6 = new QLabel(addproduct);
         label_6->setObjectName(QString::fromUtf8("label_6"));
         label_6->setGeometry(QRect(120, 20, 281, 21));
@@ -92,7 +101,7 @@ public:
 
         layoutWidget1 = new QWidget(addproduct);
         layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(250, 90, 135, 136));
+        layoutWidget1->setGeometry(QRect(240, 90, 135, 121));
         verticalLayout_2 = new QVBoxLayout(layoutWidget1);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -116,17 +125,33 @@ public:
 
         verticalLayout_2->addWidget(inputpprice);
 
-        inputpstatus = new QLineEdit(layoutWidget1);
-        inputpstatus->setObjectName(QString::fromUtf8("inputpstatus"));
-
-        verticalLayout_2->addWidget(inputpstatus);
-
         pushButtonenter = new QPushButton(addproduct);
         pushButtonenter->setObjectName(QString::fromUtf8("pushButtonenter"));
-        pushButtonenter->setGeometry(QRect(300, 280, 75, 24));
+        pushButtonenter->setGeometry(QRect(220, 280, 75, 24));
         pushButtonupdate = new QPushButton(addproduct);
         pushButtonupdate->setObjectName(QString::fromUtf8("pushButtonupdate"));
-        pushButtonupdate->setGeometry(QRect(390, 280, 75, 24));
+        pushButtonupdate->setGeometry(QRect(310, 280, 75, 24));
+        pushButtondelete = new QPushButton(addproduct);
+        pushButtondelete->setObjectName(QString::fromUtf8("pushButtondelete"));
+        pushButtondelete->setGeometry(QRect(400, 280, 80, 24));
+        listView = new QListView(addproduct);
+        listView->setObjectName(QString::fromUtf8("listView"));
+        listView->setGeometry(QRect(470, 90, 111, 192));
+        label_7 = new QLabel(addproduct);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(470, 30, 121, 16));
+        available = new QRadioButton(addproduct);
+        available->setObjectName(QString::fromUtf8("available"));
+        available->setGeometry(QRect(240, 210, 91, 22));
+        unavailable = new QRadioButton(addproduct);
+        unavailable->setObjectName(QString::fromUtf8("unavailable"));
+        unavailable->setGeometry(QRect(350, 210, 91, 22));
+        cbox = new QComboBox(addproduct);
+        cbox->setObjectName(QString::fromUtf8("cbox"));
+        cbox->setGeometry(QRect(470, 50, 61, 24));
+        showbutton = new QPushButton(addproduct);
+        showbutton->setObjectName(QString::fromUtf8("showbutton"));
+        showbutton->setGeometry(QRect(530, 50, 41, 24));
 
         retranslateUi(addproduct);
 
@@ -144,6 +169,11 @@ public:
         label_5->setText(QCoreApplication::translate("addproduct", "Product Status ", nullptr));
         pushButtonenter->setText(QCoreApplication::translate("addproduct", "Save", nullptr));
         pushButtonupdate->setText(QCoreApplication::translate("addproduct", "Update", nullptr));
+        pushButtondelete->setText(QCoreApplication::translate("addproduct", "Delete", nullptr));
+        label_7->setText(QCoreApplication::translate("addproduct", "All Product ID", nullptr));
+        available->setText(QCoreApplication::translate("addproduct", "Available", nullptr));
+        unavailable->setText(QCoreApplication::translate("addproduct", "Unavailable", nullptr));
+        showbutton->setText(QCoreApplication::translate("addproduct", "Show", nullptr));
     } // retranslateUi
 
 };

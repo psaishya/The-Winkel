@@ -25,15 +25,12 @@
     <property name="geometry">
      <rect>
       <x>0</x>
-<<<<<<< HEAD
+
       <y>0</y>
       <width>1366</width>
       <height>768</height>
-=======
-      <y>-30</y>
-      <width>571</width>
-      <height>561</height>
->>>>>>> soniya
+
+
      </rect>
     </property>
     <property name="text">
@@ -74,13 +71,10 @@
     <rect>
      <x>0</x>
      <y>0</y>
-<<<<<<< HEAD
+
      <width>1366</width>
      <height>22</height>
-=======
-     <width>984</width>
-     <height>21</height>
->>>>>>> soniya
+
     </rect>
    </property>
   </widget>

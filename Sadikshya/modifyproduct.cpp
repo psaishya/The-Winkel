@@ -33,10 +33,3 @@ void modifyproduct::on_pushButtonview_clicked()
 }
 
 
-void modifyproduct::on_pushButtondelete_clicked()
-{
-    deleteproduct dproduct;
-    dproduct.setModal(true);
-    dproduct.exec();
-}
-

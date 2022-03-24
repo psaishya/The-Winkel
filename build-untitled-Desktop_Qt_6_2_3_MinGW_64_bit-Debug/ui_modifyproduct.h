@@ -27,12 +27,10 @@ public:
     QVBoxLayout *verticalLayout;
     QLabel *label_2;
     QLabel *label_4;
-    QLabel *label_3;
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout_2;
     QPushButton *pushButtonadd;
     QPushButton *pushButtonview;
-    QPushButton *pushButtondelete;
 
     void setupUi(QDialog *modifyproduct)
     {
@@ -66,15 +64,9 @@ public:
 
         verticalLayout->addWidget(label_4);
 
-        label_3 = new QLabel(layoutWidget_2);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-        label_3->setFont(font1);
-
-        verticalLayout->addWidget(label_3);
-
         layoutWidget = new QWidget(modifyproduct);
         layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(290, 110, 77, 161));
+        layoutWidget->setGeometry(QRect(290, 110, 82, 161));
         verticalLayout_2 = new QVBoxLayout(layoutWidget);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -88,11 +80,6 @@ public:
 
         verticalLayout_2->addWidget(pushButtonview);
 
-        pushButtondelete = new QPushButton(layoutWidget);
-        pushButtondelete->setObjectName(QString::fromUtf8("pushButtondelete"));
-
-        verticalLayout_2->addWidget(pushButtondelete);
-
 
         retranslateUi(modifyproduct);
 
@@ -105,10 +92,8 @@ public:
         label->setText(QCoreApplication::translate("modifyproduct", "Modify Product", nullptr));
         label_2->setText(QCoreApplication::translate("modifyproduct", "Add/Update", nullptr));
         label_4->setText(QCoreApplication::translate("modifyproduct", "View Product Details", nullptr));
-        label_3->setText(QCoreApplication::translate("modifyproduct", "Delete Product", nullptr));
         pushButtonadd->setText(QCoreApplication::translate("modifyproduct", "click", nullptr));
         pushButtonview->setText(QCoreApplication::translate("modifyproduct", "click", nullptr));
-        pushButtondelete->setText(QCoreApplication::translate("modifyproduct", "click", nullptr));
     } // retranslateUi
 
 };
