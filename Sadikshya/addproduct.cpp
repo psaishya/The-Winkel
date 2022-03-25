@@ -43,10 +43,10 @@ addproduct::~addproduct()
     pprice =ui->inputpprice->text();
     if(ui->available->isChecked())
     {
-        pstatus="available";
+        pstatus="Available";
     }
     else
-        pstatus="unavailable";
+        pstatus="Unavailable";
     //pstatus =ui->inputpstatus->text();
     QSqlQuery qry2;
     productdb.open();
@@ -77,10 +77,10 @@ void addproduct::on_pushButtonupdate_clicked()
         pprice =ui->inputpprice->text();
         if(ui->available->isChecked())
         {
-            pstatus="available";
+            pstatus="Available";
         }
         else
-            pstatus="unavailable";
+            pstatus="Unavailable";
         //pstatus =ui->inputpstatus->text();
         QSqlQuery qry2;
         productdb.open();
