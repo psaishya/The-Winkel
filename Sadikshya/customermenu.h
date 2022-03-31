@@ -15,6 +15,11 @@ public:
     explicit customermenu(QWidget *parent = nullptr);
     ~customermenu();
 
+private slots:
+    void on_Buyproductsbutton_clicked();
+
+    void on_Givefeedbackbutton_clicked();
+
 private:
     Ui::customermenu *ui;
 };

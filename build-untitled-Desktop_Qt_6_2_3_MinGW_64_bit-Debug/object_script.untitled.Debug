@@ -1,9 +1,11 @@
 debug/addproduct.o
 debug/admin.o
 debug/adminmenu.o
+debug/buyproducts.o
 debug/customermenu.o
 debug/customerregister.o
 debug/customers.o
+debug/feedback.o
 debug/loginpage.o
 debug/main.o
 debug/mainwindow.o
@@ -13,9 +15,11 @@ debug/viewproduct.o
 debug/moc_addproduct.o
 debug/moc_admin.o
 debug/moc_adminmenu.o
+debug/moc_buyproducts.o
 debug/moc_customermenu.o
 debug/moc_customerregister.o
 debug/moc_customers.o
+debug/moc_feedback.o
 debug/moc_loginpage.o
 debug/moc_mainwindow.o
 debug/moc_modifyproduct.o

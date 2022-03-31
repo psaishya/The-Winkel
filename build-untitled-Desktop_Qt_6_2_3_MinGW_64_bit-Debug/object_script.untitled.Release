@@ -1,9 +1,11 @@
 release/addproduct.o
 release/admin.o
 release/adminmenu.o
+release/buyproducts.o
 release/customermenu.o
 release/customerregister.o
 release/customers.o
+release/feedback.o
 release/loginpage.o
 release/main.o
 release/mainwindow.o
@@ -13,9 +15,11 @@ release/viewproduct.o
 release/moc_addproduct.o
 release/moc_admin.o
 release/moc_adminmenu.o
+release/moc_buyproducts.o
 release/moc_customermenu.o
 release/moc_customerregister.o
 release/moc_customers.o
+release/moc_feedback.o
 release/moc_loginpage.o
 release/moc_mainwindow.o
 release/moc_modifyproduct.o

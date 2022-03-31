@@ -13,6 +13,32 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <widget class="QCommandLinkButton" name="Buyproductsbutton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>170</y>
+     <width>168</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Buy products</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="Givefeedbackbutton">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>170</y>
+     <width>168</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Give feedback</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>

@@ -12,9 +12,11 @@ SOURCES += \
     addproduct.cpp \
     admin.cpp \
     adminmenu.cpp \
+    buyproducts.cpp \
     customermenu.cpp \
     customerregister.cpp \
     customers.cpp \
+    feedback.cpp \
     loginpage.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -26,9 +28,11 @@ HEADERS += \
     addproduct.h \
     admin.h \
     adminmenu.h \
+    buyproducts.h \
     customermenu.h \
     customerregister.h \
     customers.h \
+    feedback.h \
     loginpage.h \
     mainwindow.h \
     modifyproduct.h \
@@ -39,9 +43,11 @@ FORMS += \
     addproduct.ui \
     admin.ui \
     adminmenu.ui \
+    buyproducts.ui \
     customermenu.ui \
     customerregister.ui \
     customers.ui \
+    feedback.ui \
     loginpage.ui \
     mainwindow.ui \
     modifyproduct.ui \
