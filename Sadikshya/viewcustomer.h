@@ -20,7 +20,7 @@ public:
 
 private:
     Ui::viewcustomer *ui;
-     QSqlDatabase customerdb;;
+     QSqlDatabase customerdb;
 };
 
 #endif // VIEWCUSTOMER_H

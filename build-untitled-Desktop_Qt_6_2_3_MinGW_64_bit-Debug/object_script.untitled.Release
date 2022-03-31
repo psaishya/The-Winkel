@@ -1,6 +1,7 @@
 release/addproduct.o
 release/admin.o
 release/adminmenu.o
+release/bill.o
 release/buyproducts.o
 release/customermenu.o
 release/customerregister.o
@@ -15,6 +16,7 @@ release/viewproduct.o
 release/moc_addproduct.o
 release/moc_admin.o
 release/moc_adminmenu.o
+release/moc_bill.o
 release/moc_buyproducts.o
 release/moc_customermenu.o
 release/moc_customerregister.o

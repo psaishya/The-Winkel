@@ -26,6 +26,10 @@ private slots:
 
     void on_remove_clicked();
 
+    void on_buy_clicked();
+
+    void on_exit_clicked();
+
 private:
     Ui::buyproducts *ui;
      QSqlDatabase productdb;

@@ -12,3 +12,22 @@ feedback::~feedback()
 {
     delete ui;
 }
+
+void feedback::on_submit_clicked()
+{
+    QString feedback;
+    if(ui->poor->isChecked())
+    {
+        feedback="Poor";
+    }
+    else if(ui->satisfactory->isChecked())
+    {
+        feedback="Satisfactory";
+    }
+    else
+    {
+        feedback="Good";
+    }
+    hide();
+}
+

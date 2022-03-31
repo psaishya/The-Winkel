@@ -1,6 +1,7 @@
 debug/addproduct.o
 debug/admin.o
 debug/adminmenu.o
+debug/bill.o
 debug/buyproducts.o
 debug/customermenu.o
 debug/customerregister.o
@@ -15,6 +16,7 @@ debug/viewproduct.o
 debug/moc_addproduct.o
 debug/moc_admin.o
 debug/moc_adminmenu.o
+debug/moc_bill.o
 debug/moc_buyproducts.o
 debug/moc_customermenu.o
 debug/moc_customerregister.o

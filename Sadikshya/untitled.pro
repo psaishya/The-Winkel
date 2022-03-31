@@ -12,6 +12,7 @@ SOURCES += \
     addproduct.cpp \
     admin.cpp \
     adminmenu.cpp \
+    bill.cpp \
     buyproducts.cpp \
     customermenu.cpp \
     customerregister.cpp \
@@ -28,6 +29,7 @@ HEADERS += \
     addproduct.h \
     admin.h \
     adminmenu.h \
+    bill.h \
     buyproducts.h \
     customermenu.h \
     customerregister.h \
@@ -43,6 +45,7 @@ FORMS += \
     addproduct.ui \
     admin.ui \
     adminmenu.ui \
+    bill.ui \
     buyproducts.ui \
     customermenu.ui \
     customerregister.ui \

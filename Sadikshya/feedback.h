@@ -15,6 +15,9 @@ public:
     explicit feedback(QWidget *parent = nullptr);
     ~feedback();
 
+private slots:
+    void on_submit_clicked();
+
 private:
     Ui::feedback *ui;
 };

@@ -1,5 +1,6 @@
 #include "buyproducts.h"
 #include "ui_buyproducts.h"
+#include "bill.h"
 
 buyproducts::buyproducts(QWidget *parent) :
     QDialog(parent),
@@ -31,6 +32,19 @@ buyproducts::buyproducts(QWidget *parent) :
     ids->setQuery("SELECT Product_Id FROM Productdetails where PStatus='Available'");
     ui->comboBox->setModel(ids);
 
+    QSqlQuery createt;
+    if(createt.exec("CREATE TABLE cart (Name TEXT,Price TEXT,Quantity TEXT, Total price TEXT )"))
+    {
+        qDebug()<<"Created cart table";
+       qDebug()<<createt.lastError();
+    }
+
+    else
+    {
+        qDebug()<<"failed to create table cart";
+    }
+
+
 
 
 }
@@ -39,6 +53,18 @@ buyproducts::~buyproducts()
 {
     delete ui;
     productdb.close();
+    QSqlQuery deletet;
+    if(deletet.exec("DROP TABLE cart "))
+    {
+        qDebug()<<"deleted cart table";
+       qDebug()<<deletet.lastError();
+    }
+
+    else
+    {
+        qDebug()<<"failed to delete table cart";
+    }
+
 
 
 }
@@ -73,25 +99,14 @@ void buyproducts::on_comboBox_currentTextChanged(const QString &arg1)
 
 void buyproducts::on_addtocart_clicked()
 {
-
-    /*//QSqlDatabase selecteddb =QSqlDatabase :: addDatabase("QSQLITE");
-    //selecteddb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/cart.db");
-
-    //if (selecteddb.open())
-    {
-        qDebug()<<"opened selected db\n";
-    }
-    else {
-        qDebug()<<"Failed";
-    }
-    */
     QString pname, pprice,pquantity;
     pname =ui->pname->text();
     pprice =ui->pprice->text();
     pquantity=ui->quantity->text();
 
-    QSqlQuery qrycart;
     //productdb.open();
+
+    QSqlQuery qrycart;
     if(qrycart.exec("insert into cart (Name,Price,Quantity) VALUES ('"+pname+"','"+pprice+"','"+pquantity+"')"))
     {
         qDebug()<<"Added to cart has been saved";
@@ -121,17 +136,7 @@ void buyproducts::on_addtocart_clicked()
 
 void buyproducts::on_remove_clicked()
 {
-    /*QSqlDatabase selecteddb =QSqlDatabase :: addDatabase("QSQLITE");
-    selecteddb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/cart.db");
 
-    if (selecteddb.open())
-    {
-        qDebug()<<"opened selected db for removing\n";
-    }
-    else {
-        qDebug()<<"Failed";
-    }
-    */
     QString pname, pprice,pquantity;
     pname =ui->pname->text();
     pprice =ui->pprice->text();
@@ -139,7 +144,7 @@ void buyproducts::on_remove_clicked()
 
     QSqlQuery qrycart2;
     //selecteddb.open();
-    if(qrycart2.exec("delete * from cart where Name='"+pname+"' "))
+    if(qrycart2.exec("delete from cart where Name='"+pname+"' "))
     {
         qDebug()<<"deleted from cart";
         qDebug()<<qrycart2.lastError();
@@ -151,5 +156,28 @@ void buyproducts::on_remove_clicked()
 
 
      qrycart2.finish();
+     QSqlQueryModel *nm=new QSqlQueryModel();
+     nm->setQuery("SELECT name FROM cart");
+      ui->name1->setModel(nm);
+      QSqlQueryModel *qnt=new QSqlQueryModel();
+      qnt->setQuery("SELECT quantity FROM cart ");
+       ui->quantity1->setModel(qnt);
+       QSqlQueryModel *prc=new QSqlQueryModel();
+       prc->setQuery("SELECT price FROM cart ");
+        ui->price1->setModel(prc);
+}
+
+
+void buyproducts::on_buy_clicked()
+{
+    bill dbill;
+    dbill.setModal(true);
+    dbill.exec();
+}
+
+
+void buyproducts::on_exit_clicked()
+{
+    hide();
 }
 
