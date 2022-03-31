@@ -22,9 +22,14 @@ public:
 private slots:
     void on_comboBox_currentTextChanged(const QString &arg1);
 
+    void on_addtocart_clicked();
+
+    void on_remove_clicked();
+
 private:
     Ui::buyproducts *ui;
      QSqlDatabase productdb;
+     QSqlDatabase selecteddb;
 };
 
 #endif // BUYPRODUCTS_H

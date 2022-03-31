@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>622</width>
-    <height>435</height>
+    <width>760</width>
+    <height>546</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,7 +16,7 @@
   <widget class="QListView" name="id">
    <property name="geometry">
     <rect>
-     <x>450</x>
+     <x>570</x>
      <y>50</y>
      <width>61</width>
      <height>241</height>
@@ -26,7 +26,7 @@
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>370</x>
+     <x>440</x>
      <y>50</y>
      <width>72</width>
      <height>31</height>
@@ -36,17 +36,95 @@
   <widget class="QListView" name="productname">
    <property name="geometry">
     <rect>
-     <x>510</x>
+     <x>630</x>
      <y>50</y>
      <width>101</width>
      <height>241</height>
     </rect>
    </property>
   </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>280</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>YOUR CART</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>30</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Available products</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="addtocart">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>310</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ADD TO CART</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="remove">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>350</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>REMOVE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="buy">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>480</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BUY</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>520</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EXIT</string>
+   </property>
+  </widget>
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>150</x>
      <y>60</y>
      <width>251</width>
      <height>18</height>
@@ -72,7 +150,7 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>150</x>
      <y>100</y>
      <width>251</width>
      <height>18</height>
@@ -98,7 +176,7 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>150</x>
      <y>140</y>
      <width>251</width>
      <height>18</height>
@@ -124,8 +202,8 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>190</y>
+     <x>150</x>
+     <y>180</y>
      <width>251</width>
      <height>18</height>
     </rect>
@@ -150,8 +228,8 @@
   <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>240</y>
+     <x>150</x>
+     <y>210</y>
      <width>93</width>
      <height>27</height>
     </rect>
@@ -166,6 +244,72 @@
     </item>
     <item>
      <widget class="QSpinBox" name="quantity"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>310</y>
+     <width>91</width>
+     <height>216</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Product</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListView" name="name1"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>310</y>
+     <width>81</width>
+     <height>216</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Quantity</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListView" name="quantity1"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>310</y>
+     <width>72</width>
+     <height>216</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Price</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListView" name="price1"/>
     </item>
    </layout>
   </widget>

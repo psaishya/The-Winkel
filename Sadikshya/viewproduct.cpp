@@ -7,7 +7,7 @@ viewproduct::viewproduct(QWidget *parent) :
 {
     ui->setupUi(this);
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/product.db");
+    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
     if (productdb.open())
     {
         qDebug()<<"opened\n";
