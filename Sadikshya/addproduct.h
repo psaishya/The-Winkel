@@ -27,8 +27,6 @@ private slots:
 
     void on_cbox_currentTextChanged(const QString &arg1);
 
-    void on_cbox_activated(int index);
-
     void on_showbutton_clicked();
 
 private:

@@ -22,6 +22,7 @@ public:
 private:
     Ui::viewproduct *ui;
     QSqlDatabase productdb;
+    QSqlQueryModel *modal;
 };
 
 #endif // VIEWPRODUCT_H

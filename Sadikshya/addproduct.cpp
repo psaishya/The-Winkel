@@ -18,8 +18,6 @@ addproduct::addproduct(QWidget *parent) :
     }
 
     QSqlQueryModel *modal=new QSqlQueryModel();
-    //QSqlQuery *qry =new QSqlQuery(productdb);
-    //qry->exec("SELECT * FROM Productdetails" );
     modal->setQuery("SELECT Product_Id FROM Productdetails");
     ui->listView->setModel(modal);
 
@@ -47,7 +45,6 @@ addproduct::~addproduct()
     }
     else
         pstatus="Unavailable";
-    //pstatus =ui->inputpstatus->text();
     QSqlQuery qry2;
     productdb.open();
     if(qry2.exec("insert into Productdetails (product_id,pname,pcompany,pprice,pstatus) VALUES ('"+productid+"','"+pname+"','"+pcompany+"','"+pprice+"','"+pstatus+"')"))
@@ -177,7 +174,7 @@ void addproduct::on_cbox_currentTextChanged(const QString &arg1)
 void addproduct::on_showbutton_clicked()
 {
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/product.db");
+    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
 
         productdb.open();
         if (productdb.open())

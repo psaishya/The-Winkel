@@ -22,7 +22,6 @@ private slots:
 
     void on_pushbutton_register_clicked();
 
-    void on_pw_clicked();
 
 
 

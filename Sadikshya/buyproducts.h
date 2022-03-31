@@ -29,7 +29,7 @@ private slots:
 private:
     Ui::buyproducts *ui;
      QSqlDatabase productdb;
-     QSqlDatabase selecteddb;
+
 };
 
 #endif // BUYPRODUCTS_H

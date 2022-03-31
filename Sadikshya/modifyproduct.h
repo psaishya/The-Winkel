@@ -20,7 +20,7 @@ private slots:
 
     void on_pushButtonview_clicked();
 
-    void on_pushButtondelete_clicked();
+
 
 private:
     Ui::modifyproduct *ui;

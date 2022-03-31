@@ -15,11 +15,12 @@ viewproduct::viewproduct(QWidget *parent) :
     else {
         qDebug()<<"Failed";
     }
-    QSqlQueryModel *modal=new QSqlQueryModel();
+    QSqlQueryModel *vpd=new QSqlQueryModel();
     //QSqlQuery *qry =new QSqlQuery(productdb);
     //qry->exec("SELECT * FROM Productdetails" );
-    modal->setQuery("SELECT * FROM Productdetails");
-    ui->tableView->setModel(modal);
+    qDebug()<<"view product selected now displaying";
+    vpd->setQuery("SELECT * FROM productdetails");
+    ui->tableView->setModel(vpd);
 
 }
 
