@@ -30,13 +30,14 @@ customers::~customers()
 
 }
 
-
+QString customers::usname="";
 void customers::on_loginbutton_clicked()
 {
     QString username, password;
 
     username =ui->inputusername->text();
     password =ui->inputpassword->text();
+    usname=username;
     if (!customerdb.open())
     {
         qDebug()<<"failed to connect\n";

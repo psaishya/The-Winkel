@@ -1,33 +1,64 @@
 #include "feedback.h"
 #include "ui_feedback.h"
+#include <customers.h>
+
 
 feedback::feedback(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::feedback)
 {
     ui->setupUi(this);
+
+    QSqlDatabase feedbackdb =QSqlDatabase :: addDatabase("QSQLITE");
+    feedbackdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    if (feedbackdb.open())
+    {
+        qDebug()<<"opened\n";
+    }
+    else {
+        qDebug()<<"Failed";
+    }
 }
 
 feedback::~feedback()
 {
     delete ui;
+    feedbackdb.close();
 }
 
 void feedback::on_submit_clicked()
 {
-    QString feedback;
+    QString fback;
     if(ui->poor->isChecked())
     {
-        feedback="Poor";
+        fback="Poor";
     }
     else if(ui->satisfactory->isChecked())
     {
-        feedback="Satisfactory";
+        fback="Satisfactory";
     }
     else
     {
-        feedback="Good";
+        fback="Good";
     }
+    qDebug()<<customers::usname;
+    QString usn=customers::usname;
+    feedbackdb.open();
+    QSqlQuery fb;
+
+    fb.prepare("UPDATE register SET Feedback=? where username=?");
+    fb.addBindValue(fback);
+    fb.addBindValue(usn);
+    if(fb.exec())
+    {
+      qDebug()<<"Feedback inserted";
+    }
+
+    else
+    {
+        qDebug()<<"Feedback insertion failed";
+    }
+
     hide();
 }
 

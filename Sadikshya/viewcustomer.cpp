@@ -16,7 +16,7 @@ viewcustomer::viewcustomer(QWidget *parent) :
         qDebug()<<"Failed";
     }
     QSqlQueryModel *modal=new QSqlQueryModel();
-    modal->setQuery("SELECT name,contact,username FROM register");
+    modal->setQuery("SELECT name,contact,username,feedback FROM register");
     ui->tableView->setModel(modal);
 }
 

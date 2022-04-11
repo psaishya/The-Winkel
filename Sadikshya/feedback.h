@@ -1,7 +1,10 @@
 #ifndef FEEDBACK_H
 #define FEEDBACK_H
 
+#include <QDebug>
 #include <QDialog>
+#include <QtSql>
+#include <QFileInfo>
 
 namespace Ui {
 class feedback;
@@ -20,6 +23,7 @@ private slots:
 
 private:
     Ui::feedback *ui;
+    QSqlDatabase feedbackdb;
 };
 
 #endif // FEEDBACK_H

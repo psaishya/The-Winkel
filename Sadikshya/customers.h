@@ -28,6 +28,8 @@ private slots:
 private:
     Ui::customers *ui;
     QSqlDatabase customerdb;
+public:
+    static QString usname;
 
 };
 
