@@ -3,6 +3,7 @@ debug/admin.o
 debug/adminmenu.o
 debug/bill.o
 debug/buyproducts.o
+debug/credits.o
 debug/customermenu.o
 debug/customerregister.o
 debug/customers.o
@@ -18,6 +19,7 @@ debug/moc_admin.o
 debug/moc_adminmenu.o
 debug/moc_bill.o
 debug/moc_buyproducts.o
+debug/moc_credits.o
 debug/moc_customermenu.o
 debug/moc_customerregister.o
 debug/moc_customers.o

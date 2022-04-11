@@ -107,10 +107,11 @@ void buyproducts::on_addtocart_clicked()
     //productdb.open();
 
     QSqlQuery qrycart;
-    if(qrycart.exec("insert into cart (Name,Price,Quantity) VALUES ('"+pname+"','"+pprice+"','"+pquantity+"')"))
+    if(qrycart.exec("INSERT INTO cart (Name,Price,Quantity) VALUES ('"+pname+"','"+pprice+"','"+pquantity+"')"))
     {
+
         qDebug()<<"Added to cart has been saved";
-       qDebug()<<qrycart.lastError();
+        qDebug()<<qrycart.lastError();
     }
     else
     {

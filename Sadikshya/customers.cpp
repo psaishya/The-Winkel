@@ -85,5 +85,6 @@ void customers::on_commandLinkButton_clicked()
     customerregister registeer;
     registeer.setModal(true);
     registeer.exec();
+    hide();
 }
 

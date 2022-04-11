@@ -17,6 +17,9 @@ public:
     explicit bill(QWidget *parent = nullptr);
     ~bill();
 
+private slots:
+    void on_confirm_clicked();
+
 private:
     Ui::bill *ui;
     QSqlDatabase viewbilldb;

@@ -3,6 +3,7 @@ release/admin.o
 release/adminmenu.o
 release/bill.o
 release/buyproducts.o
+release/credits.o
 release/customermenu.o
 release/customerregister.o
 release/customers.o
@@ -18,6 +19,7 @@ release/moc_admin.o
 release/moc_adminmenu.o
 release/moc_bill.o
 release/moc_buyproducts.o
+release/moc_credits.o
 release/moc_customermenu.o
 release/moc_customerregister.o
 release/moc_customers.o
