@@ -7,7 +7,7 @@ addproduct::addproduct(QWidget *parent) :
 {
     ui->setupUi(this);
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    productdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
 
     if (productdb.open())
     {
@@ -174,7 +174,7 @@ void addproduct::on_cbox_currentTextChanged(const QString &arg1)
 void addproduct::on_showbutton_clicked()
 {
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    productdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
 
         productdb.open();
         if (productdb.open())
@@ -186,8 +186,7 @@ void addproduct::on_showbutton_clicked()
         }
 
         QSqlQueryModel *modal=new QSqlQueryModel();
-        //QSqlQuery *qry =new QSqlQuery(productdb);
-        //qry->exec("SELECT * FROM Productdetails" );
+
         modal->setQuery("SELECT Product_Id FROM Productdetails");
 
         ui->cbox->setModel(modal);

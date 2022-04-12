@@ -10,7 +10,7 @@ feedback::feedback(QWidget *parent) :
     ui->setupUi(this);
 
     QSqlDatabase feedbackdb =QSqlDatabase :: addDatabase("QSQLITE");
-    feedbackdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    feedbackdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
     if (feedbackdb.open())
     {
         qDebug()<<"opened\n";
@@ -46,9 +46,7 @@ void feedback::on_submit_clicked()
     feedbackdb.open();
     QSqlQuery fb;
 
-    fb.prepare("UPDATE register SET Feedback=? where username=?");
-    fb.addBindValue(fback);
-    fb.addBindValue(usn);
+    fb.prepare("UPDATE register SET Feedback='"+fback+"' where username='"+usn+"'");
     if(fb.exec())
     {
       qDebug()<<"Feedback inserted";

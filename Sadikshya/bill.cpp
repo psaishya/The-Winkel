@@ -8,7 +8,7 @@ bill::bill(QWidget *parent) :
 {
     ui->setupUi(this);
     QSqlDatabase viewbilldb =QSqlDatabase :: addDatabase("QSQLITE");
-    viewbilldb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    viewbilldb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
     if (viewbilldb.open())
     {
         qDebug()<<"opened\n";

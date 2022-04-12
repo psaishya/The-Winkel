@@ -9,7 +9,7 @@ customerregister::customerregister(QWidget *parent) :
     ui->setupUi(this);
     customerdb =QSqlDatabase :: addDatabase("QSQLITE");
 
-   customerdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+   customerdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
 
 
 
@@ -63,7 +63,7 @@ void customerregister::on_pushbutton_register_clicked()
              if (password=="")
              {
                  QMessageBox :: warning (this,"","Enter a proper password ");
-                 //ui->pushbutton_register->setDisabled(true);
+
              }
 
              if (password==repassword){

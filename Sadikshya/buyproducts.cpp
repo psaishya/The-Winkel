@@ -8,7 +8,7 @@ buyproducts::buyproducts(QWidget *parent) :
 {
     ui->setupUi(this);
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
+    productdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
 
     if (productdb.open())
     {
@@ -165,7 +165,7 @@ void buyproducts::on_remove_clicked()
        ui->quantity1->setModel(qnt);
        QSqlQueryModel *prc=new QSqlQueryModel();
        prc->setQuery("SELECT price FROM cart ");
-        ui->price1->setModel(prc);
+       ui->price1->setModel(prc);
 }
 
 
