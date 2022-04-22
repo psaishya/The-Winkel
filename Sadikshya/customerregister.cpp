@@ -9,7 +9,7 @@ customerregister::customerregister(QWidget *parent) :
     ui->setupUi(this);
     customerdb =QSqlDatabase :: addDatabase("QSQLITE");
 
-   customerdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
+   customerdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
 
 
 
@@ -53,7 +53,7 @@ void customerregister::on_pushbutton_register_clicked()
         if (count>=1)
         {
 
-            ui->usernametaken->setText("Username already taken. Choose another username.");
+            ui->usernametaken->setText("<font color = red> Username already taken. Choose another username.</font>");
 
 
         }
@@ -89,7 +89,7 @@ void customerregister::on_pushbutton_register_clicked()
                       hide();
              }
              else{
-                 QMessageBox :: warning (this,"","re confirm your password ");
+                 QMessageBox :: warning (this,"","Re-confirm your password ");
              }
 
         }

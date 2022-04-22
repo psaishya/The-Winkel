@@ -6,132 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>554</width>
-    <height>395</height>
+    <width>600</width>
+    <height>400</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Customer Register</string>
   </property>
-  <widget class="QGroupBox" name="groupBox">
-   <property name="geometry">
-    <rect>
-     <x>80</x>
-     <y>60</y>
-     <width>331</width>
-     <height>281</height>
-    </rect>
-   </property>
-   <property name="title">
-    <string>Welcome to customer registration page</string>
-   </property>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>50</y>
-      <width>91</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout">
-     <item>
-      <widget class="QLabel" name="label">
-       <property name="text">
-        <string>NAME</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>CONTACT</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>140</y>
-      <width>148</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_2">
-     <item>
-      <widget class="QLabel" name="label_5">
-       <property name="text">
-        <string>USERNAME</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>PASSWORD</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_3">
-       <property name="text">
-        <string>CONFRIM PASSWORD</string>
-       </property>
-      </widget>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>130</x>
-      <y>50</y>
-      <width>127</width>
-      <height>65</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_3">
-     <item>
-      <widget class="QLineEdit" name="inputname"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="inputcontact"/>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="layoutWidget">
-    <property name="geometry">
-     <rect>
-      <x>180</x>
-      <y>140</y>
-      <width>127</width>
-      <height>116</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_4">
-     <item>
-      <widget class="QLineEdit" name="inputusername"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="inputpassword"/>
-     </item>
-     <item>
-      <widget class="QLineEdit" name="inputconfirm"/>
-     </item>
-    </layout>
-   </widget>
-  </widget>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
+  </property>
   <widget class="QPushButton" name="pushbutton_register">
    <property name="geometry">
     <rect>
-     <x>410</x>
-     <y>350</y>
+     <x>320</x>
+     <y>300</y>
      <width>111</width>
      <height>29</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+    </font>
    </property>
    <property name="text">
     <string>Register</string>
@@ -140,17 +38,245 @@
   <widget class="QLabel" name="usernametaken">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>360</y>
+     <x>240</x>
+     <y>270</y>
      <width>301</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+    </font>
    </property>
    <property name="text">
     <string/>
    </property>
   </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>600</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/customerregistrationbkg.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>120</y>
+     <width>51</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>NAME</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>170</y>
+     <width>91</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CONTACT</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>220</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>CONFRIM PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>170</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>PASSWORD</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>120</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>USERNAME</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputconfirm">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>240</y>
+     <width>170</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputpassword">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>190</y>
+     <width>170</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputusername">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>140</y>
+     <width>170</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputname">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>140</y>
+     <width>170</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="inputcontact">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>190</y>
+     <width>170</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+  </widget>
+  <zorder>label_6</zorder>
+  <zorder>pushbutton_register</zorder>
+  <zorder>usernametaken</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>inputconfirm</zorder>
+  <zorder>inputpassword</zorder>
+  <zorder>inputusername</zorder>
+  <zorder>inputname</zorder>
+  <zorder>inputcontact</zorder>
  </widget>
+ <tabstops>
+  <tabstop>inputname</tabstop>
+  <tabstop>inputcontact</tabstop>
+  <tabstop>inputusername</tabstop>
+  <tabstop>inputpassword</tabstop>
+  <tabstop>inputconfirm</tabstop>
+  <tabstop>pushbutton_register</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

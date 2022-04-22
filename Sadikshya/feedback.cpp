@@ -10,7 +10,7 @@ feedback::feedback(QWidget *parent) :
     ui->setupUi(this);
 
     QSqlDatabase feedbackdb =QSqlDatabase :: addDatabase("QSQLITE");
-    feedbackdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
+    feedbackdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
     if (feedbackdb.open())
     {
         qDebug()<<"opened\n";

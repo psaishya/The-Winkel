@@ -58,6 +58,7 @@ public:
         Login = new QCommandLinkButton(layoutWidget);
         Login->setObjectName(QString::fromUtf8("Login"));
         QFont font;
+        font.setFamilies({QString::fromUtf8("Audiowide")});
         Login->setFont(font);
 
         horizontalLayout->addWidget(Login);

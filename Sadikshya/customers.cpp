@@ -11,7 +11,7 @@ customers::customers(QWidget *parent) :
 {
     ui->setupUi(this);
     customerdb =QSqlDatabase :: addDatabase("QSQLITE");
-    customerdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
+    customerdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
     if (customerdb.open())
     {
         qDebug()<<"opened\n";
@@ -67,7 +67,6 @@ void customers::on_loginbutton_clicked()
                 //     QMessageBox :: warning (this,"","try again ");
                 if(count==1)
                 {
-                     QMessageBox :: information (this,"","Welcome to customer interface ");
                      customermenu cmenu;
                      cmenu.setModal(true);
                      cmenu.exec();

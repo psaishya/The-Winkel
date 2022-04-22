@@ -75,6 +75,13 @@ public:
         commandLinkButton = new QCommandLinkButton(customers);
         commandLinkButton->setObjectName(QString::fromUtf8("commandLinkButton"));
         commandLinkButton->setGeometry(QRect(280, 460, 251, 41));
+        QFont font2;
+        font2.setFamilies({QString::fromUtf8("Audiowide")});
+        font2.setUnderline(true);
+        commandLinkButton->setFont(font2);
+        QWidget::setTabOrder(inputusername, inputpassword);
+        QWidget::setTabOrder(inputpassword, loginbutton);
+        QWidget::setTabOrder(loginbutton, commandLinkButton);
 
         retranslateUi(customers);
 

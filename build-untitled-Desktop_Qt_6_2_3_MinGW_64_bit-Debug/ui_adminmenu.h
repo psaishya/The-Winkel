@@ -10,91 +10,61 @@
 #define UI_ADMINMENU_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_adminmenu
 {
 public:
-    QLabel *label;
-    QWidget *widget;
-    QVBoxLayout *verticalLayout;
-    QLabel *label_2;
-    QLabel *label_4;
-    QLabel *label_5;
-    QLabel *label_3;
-    QWidget *widget1;
-    QVBoxLayout *verticalLayout_2;
+    QLabel *customerdetail;
+    QLabel *modify;
     QPushButton *pushButtonmodify;
     QPushButton *pushButtonview;
+    QLabel *label_2;
 
     void setupUi(QDialog *adminmenu)
     {
         if (adminmenu->objectName().isEmpty())
             adminmenu->setObjectName(QString::fromUtf8("adminmenu"));
         adminmenu->resize(450, 362);
-        label = new QLabel(adminmenu);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(70, 30, 311, 20));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../pictures/minilogo_g9m_icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        adminmenu->setWindowIcon(icon);
+        customerdetail = new QLabel(adminmenu);
+        customerdetail->setObjectName(QString::fromUtf8("customerdetail"));
+        customerdetail->setGeometry(QRect(160, 150, 171, 31));
         QFont font;
-        font.setFamilies({QString::fromUtf8("Segoe Script")});
-        font.setPointSize(17);
-        font.setBold(true);
-        label->setFont(font);
-        widget = new QWidget(adminmenu);
-        widget->setObjectName(QString::fromUtf8("widget"));
-        widget->setGeometry(QRect(14, 80, 151, 141));
-        verticalLayout = new QVBoxLayout(widget);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(widget);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-
-        verticalLayout->addWidget(label_2);
-
-        label_4 = new QLabel(widget);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        QFont font1;
-        font1.setPointSize(12);
-        label_4->setFont(font1);
-
-        verticalLayout->addWidget(label_4);
-
-        label_5 = new QLabel(widget);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-        QFont font2;
-        font2.setPointSize(11);
-        label_5->setFont(font2);
-
-        verticalLayout->addWidget(label_5);
-
-        label_3 = new QLabel(widget);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-
-        verticalLayout->addWidget(label_3);
-
-        widget1 = new QWidget(adminmenu);
-        widget1->setObjectName(QString::fromUtf8("widget1"));
-        widget1->setGeometry(QRect(170, 100, 81, 101));
-        verticalLayout_2 = new QVBoxLayout(widget1);
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        pushButtonmodify = new QPushButton(widget1);
+        font.setPointSize(10);
+        customerdetail->setFont(font);
+        modify = new QLabel(adminmenu);
+        modify->setObjectName(QString::fromUtf8("modify"));
+        modify->setGeometry(QRect(170, 210, 121, 21));
+        modify->setFont(font);
+        pushButtonmodify = new QPushButton(adminmenu);
         pushButtonmodify->setObjectName(QString::fromUtf8("pushButtonmodify"));
-
-        verticalLayout_2->addWidget(pushButtonmodify);
-
-        pushButtonview = new QPushButton(widget1);
+        pushButtonmodify->setGeometry(QRect(20, 210, 110, 25));
+        QFont font1;
+        font1.setPointSize(9);
+        pushButtonmodify->setFont(font1);
+        pushButtonview = new QPushButton(adminmenu);
         pushButtonview->setObjectName(QString::fromUtf8("pushButtonview"));
-
-        verticalLayout_2->addWidget(pushButtonview);
-
+        pushButtonview->setGeometry(QRect(20, 150, 110, 25));
+        pushButtonview->setFont(font1);
+        label_2 = new QLabel(adminmenu);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(0, 0, 451, 361));
+        label_2->setPixmap(QPixmap(QString::fromUtf8("../pictures/admin menu bkg.jpg")));
+        label_2->raise();
+        customerdetail->raise();
+        modify->raise();
+        pushButtonmodify->raise();
+        pushButtonview->raise();
+        QWidget::setTabOrder(pushButtonview, pushButtonmodify);
 
         retranslateUi(adminmenu);
 
@@ -103,14 +73,12 @@ public:
 
     void retranslateUi(QDialog *adminmenu)
     {
-        adminmenu->setWindowTitle(QCoreApplication::translate("adminmenu", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("adminmenu", "Welcome To Main Menu", nullptr));
+        adminmenu->setWindowTitle(QCoreApplication::translate("adminmenu", "Administrator Menu", nullptr));
+        customerdetail->setText(QCoreApplication::translate("adminmenu", "View Customer Details", nullptr));
+        modify->setText(QCoreApplication::translate("adminmenu", "Modify Product", nullptr));
+        pushButtonmodify->setText(QCoreApplication::translate("adminmenu", "Click to Modify ", nullptr));
+        pushButtonview->setText(QCoreApplication::translate("adminmenu", "Click to View", nullptr));
         label_2->setText(QString());
-        label_4->setText(QCoreApplication::translate("adminmenu", "Modify Product", nullptr));
-        label_5->setText(QCoreApplication::translate("adminmenu", "View Customer Details", nullptr));
-        label_3->setText(QString());
-        pushButtonmodify->setText(QCoreApplication::translate("adminmenu", "click", nullptr));
-        pushButtonview->setText(QCoreApplication::translate("adminmenu", "click", nullptr));
     } // retranslateUi
 
 };

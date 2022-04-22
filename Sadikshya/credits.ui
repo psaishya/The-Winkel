@@ -6,21 +6,28 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>491</width>
+    <width>490</width>
     <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Payment - The Winkel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>100</y>
-     <width>19</width>
+     <x>220</x>
+     <y>168</y>
+     <width>31</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>PIN</string>
@@ -29,11 +36,14 @@
   <widget class="QLineEdit" name="pin">
    <property name="geometry">
     <rect>
-     <x>200</x>
-     <y>100</y>
+     <x>260</x>
+     <y>160</y>
      <width>211</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="echoMode">
     <enum>QLineEdit::Password</enum>
@@ -43,37 +53,69 @@
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>260</y>
+     <y>190</y>
      <width>80</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>PAY</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>50</y>
-     <width>321</width>
-     <height>26</height>
+     <x>0</x>
+     <y>0</y>
+     <width>490</width>
+     <height>300</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Credit card number</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="cardnumber"/>
-    </item>
-   </layout>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/creditbkg.jpg</pixmap>
+   </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>122</x>
+     <y>120</y>
+     <width>131</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string>Credit card number</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cardnumber">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>120</y>
+     <width>210</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pin</zorder>
+  <zorder>paybutton</zorder>
+  <zorder>label</zorder>
+  <zorder>cardnumber</zorder>
  </widget>
  <resources/>
  <connections/>

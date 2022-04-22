@@ -21,13 +21,13 @@ void admin::on_checkusernamebutton_clicked()
        username=ui->inputusername->text();
        if(username=="admin")
        {
-           ui->msglabel->setText("Correct username, enter password");
+           ui->msglabel->setText("<font color = green>Correct username, enter password </font>");
            ui->inputpassword->setDisabled(false);
        }
 
        else
        {
-           ui->msglabel->setText("Incorrect username, enter again");
+           ui->msglabel->setText("<font color= red >Incorrect username, enter again</font>");
        }
 }
 

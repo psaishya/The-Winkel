@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Login </string>
   </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
+  </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -24,6 +28,7 @@
    </property>
    <property name="font">
     <font>
+     <family>Audiowide</family>
      <pointsize>48</pointsize>
     </font>
    </property>
@@ -56,14 +61,15 @@
   <widget class="QCommandLinkButton" name="commandLinkButton">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>130</y>
-     <width>924</width>
-     <height>80</height>
+     <x>740</x>
+     <y>120</y>
+     <width>501</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Audiowide</family>
      <pointsize>26</pointsize>
     </font>
    </property>
@@ -86,12 +92,13 @@
     <rect>
      <x>60</x>
      <y>120</y>
-     <width>498</width>
-     <height>80</height>
+     <width>611</width>
+     <height>71</height>
     </rect>
    </property>
    <property name="font">
     <font>
+     <family>Audiowide</family>
      <pointsize>26</pointsize>
     </font>
    </property>
@@ -114,6 +121,10 @@
   <zorder>commandLinkButton</zorder>
   <zorder>label</zorder>
  </widget>
+ <tabstops>
+  <tabstop>commandLinkButton_2</tabstop>
+  <tabstop>commandLinkButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

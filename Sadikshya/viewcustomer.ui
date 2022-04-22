@@ -11,16 +11,25 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Customer Details - The Winkel</string>
   </property>
   <widget class="QTableView" name="tableView">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>-10</y>
-     <width>551</width>
-     <height>331</height>
+     <width>561</width>
+     <height>351</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(71, 224, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(71, 71, 71, 255), stop:1 rgba(255, 255, 255, 255));</string>
    </property>
   </widget>
  </widget>

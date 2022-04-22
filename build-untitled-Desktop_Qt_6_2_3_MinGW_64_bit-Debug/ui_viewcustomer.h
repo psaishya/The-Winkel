@@ -29,7 +29,12 @@ public:
         viewcustomer->resize(554, 334);
         tableView = new QTableView(viewcustomer);
         tableView->setObjectName(QString::fromUtf8("tableView"));
-        tableView->setGeometry(QRect(0, -10, 551, 331));
+        tableView->setGeometry(QRect(0, -10, 561, 351));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Audiowide")});
+        tableView->setFont(font);
+        tableView->setStyleSheet(QString::fromUtf8("background-color: rgb(71, 224, 255);\n"
+"background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(71, 71, 71, 255), stop:1 rgba(255, 255, 255, 255));"));
 
         retranslateUi(viewcustomer);
 
@@ -38,7 +43,7 @@ public:
 
     void retranslateUi(QDialog *viewcustomer)
     {
-        viewcustomer->setWindowTitle(QCoreApplication::translate("viewcustomer", "Dialog", nullptr));
+        viewcustomer->setWindowTitle(QCoreApplication::translate("viewcustomer", "Customer Details - The Winkel", nullptr));
     } // retranslateUi
 
 };

@@ -11,16 +11,23 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Feedback - The Winkel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <widget class="QRadioButton" name="good">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>180</y>
+     <x>190</x>
+     <y>170</y>
      <width>91</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>GOOD</string>
@@ -29,11 +36,14 @@
   <widget class="QRadioButton" name="satisfactory">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>130</y>
-     <width>121</width>
+     <x>190</x>
+     <y>140</y>
+     <width>131</width>
      <height>22</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>SATISFACTORY</string>
@@ -42,24 +52,30 @@
   <widget class="QRadioButton" name="poor">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>80</y>
+     <x>190</x>
+     <y>110</y>
      <width>91</width>
      <height>22</height>
     </rect>
    </property>
+   <property name="font">
+    <font/>
+   </property>
    <property name="text">
-    <string>POOR</string>
+    <string> POOR </string>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>30</y>
+     <x>190</x>
+     <y>80</y>
      <width>201</width>
      <height>16</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>How was your experience?</string>
@@ -68,17 +84,51 @@
   <widget class="QPushButton" name="submit">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>270</y>
+     <x>190</x>
+     <y>200</y>
      <width>80</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>Submit</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/feedback.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>good</zorder>
+  <zorder>satisfactory</zorder>
+  <zorder>poor</zorder>
+  <zorder>label</zorder>
+  <zorder>submit</zorder>
  </widget>
+ <tabstops>
+  <tabstop>poor</tabstop>
+  <tabstop>satisfactory</tabstop>
+  <tabstop>good</tabstop>
+  <tabstop>submit</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

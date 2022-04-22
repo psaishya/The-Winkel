@@ -10,16 +10,14 @@
 #define UI_BUYPRODUCTS_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QListView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpinBox>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -35,200 +33,170 @@ public:
     QPushButton *remove;
     QPushButton *buy;
     QPushButton *exit;
-    QWidget *layoutWidget;
-    QHBoxLayout *horizontalLayout;
-    QLabel *label;
-    QLabel *pid;
-    QWidget *layoutWidget1;
-    QHBoxLayout *horizontalLayout_2;
-    QLabel *label_2;
-    QLabel *pname;
-    QWidget *layoutWidget2;
-    QHBoxLayout *horizontalLayout_3;
-    QLabel *label_3;
-    QLabel *pprice;
-    QWidget *layoutWidget3;
-    QHBoxLayout *horizontalLayout_4;
-    QLabel *label_7;
-    QLabel *pcompany;
-    QWidget *layoutWidget4;
-    QHBoxLayout *horizontalLayout_5;
-    QLabel *label_5;
-    QSpinBox *quantity;
-    QWidget *layoutWidget5;
-    QVBoxLayout *verticalLayout;
+    QLabel *label_10;
+    QLabel *label_9;
     QLabel *label_8;
     QListView *name1;
-    QWidget *layoutWidget6;
-    QVBoxLayout *verticalLayout_2;
-    QLabel *label_9;
-    QListView *quantity1;
-    QWidget *layoutWidget7;
-    QVBoxLayout *verticalLayout_3;
-    QLabel *label_10;
     QListView *price1;
+    QListView *quantity1;
+    QLabel *pid;
+    QLabel *label;
+    QLabel *label_2;
+    QLabel *pname;
+    QLabel *label_3;
+    QLabel *pprice;
+    QLabel *label_7;
+    QLabel *pcompany;
+    QLabel *label_5;
+    QSpinBox *quantity;
+    QLabel *label_11;
+    QLabel *label_12;
 
     void setupUi(QDialog *buyproducts)
     {
         if (buyproducts->objectName().isEmpty())
             buyproducts->setObjectName(QString::fromUtf8("buyproducts"));
         buyproducts->resize(760, 546);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../pictures/minilogo_g9m_icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        buyproducts->setWindowIcon(icon);
         id = new QListView(buyproducts);
         id->setObjectName(QString::fromUtf8("id"));
-        id->setGeometry(QRect(570, 50, 61, 241));
+        id->setGeometry(QRect(570, 110, 61, 241));
+        QFont font;
+        id->setFont(font);
         comboBox = new QComboBox(buyproducts);
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
-        comboBox->setGeometry(QRect(440, 50, 72, 31));
+        comboBox->setGeometry(QRect(490, 110, 72, 31));
+        comboBox->setFont(font);
         productname = new QListView(buyproducts);
         productname->setObjectName(QString::fromUtf8("productname"));
-        productname->setGeometry(QRect(630, 50, 101, 241));
+        productname->setGeometry(QRect(630, 110, 101, 241));
+        productname->setFont(font);
         label_4 = new QLabel(buyproducts);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(50, 280, 171, 16));
+        label_4->setGeometry(QRect(170, 270, 111, 16));
+        label_4->setFont(font);
         label_6 = new QLabel(buyproducts);
         label_6->setObjectName(QString::fromUtf8("label_6"));
-        label_6->setGeometry(QRect(570, 30, 151, 16));
+        label_6->setGeometry(QRect(570, 90, 151, 16));
+        label_6->setFont(font);
         addtocart = new QPushButton(buyproducts);
         addtocart->setObjectName(QString::fromUtf8("addtocart"));
-        addtocart->setGeometry(QRect(330, 310, 91, 24));
+        addtocart->setGeometry(QRect(360, 260, 111, 24));
+        addtocart->setFont(font);
         remove = new QPushButton(buyproducts);
         remove->setObjectName(QString::fromUtf8("remove"));
-        remove->setGeometry(QRect(330, 350, 91, 24));
+        remove->setGeometry(QRect(470, 260, 91, 24));
+        remove->setFont(font);
         buy = new QPushButton(buyproducts);
         buy->setObjectName(QString::fromUtf8("buy"));
-        buy->setGeometry(QRect(630, 480, 80, 24));
+        buy->setGeometry(QRect(640, 360, 80, 24));
+        buy->setFont(font);
         exit = new QPushButton(buyproducts);
         exit->setObjectName(QString::fromUtf8("exit"));
-        exit->setGeometry(QRect(630, 520, 80, 24));
-        layoutWidget = new QWidget(buyproducts);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(150, 60, 251, 18));
-        horizontalLayout = new QHBoxLayout(layoutWidget);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
-        horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        label = new QLabel(layoutWidget);
-        label->setObjectName(QString::fromUtf8("label"));
-
-        horizontalLayout->addWidget(label);
-
-        pid = new QLabel(layoutWidget);
-        pid->setObjectName(QString::fromUtf8("pid"));
-
-        horizontalLayout->addWidget(pid);
-
-        layoutWidget1 = new QWidget(buyproducts);
-        layoutWidget1->setObjectName(QString::fromUtf8("layoutWidget1"));
-        layoutWidget1->setGeometry(QRect(150, 100, 251, 18));
-        horizontalLayout_2 = new QHBoxLayout(layoutWidget1);
-        horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
-        horizontalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(layoutWidget1);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-
-        horizontalLayout_2->addWidget(label_2);
-
-        pname = new QLabel(layoutWidget1);
-        pname->setObjectName(QString::fromUtf8("pname"));
-
-        horizontalLayout_2->addWidget(pname);
-
-        layoutWidget2 = new QWidget(buyproducts);
-        layoutWidget2->setObjectName(QString::fromUtf8("layoutWidget2"));
-        layoutWidget2->setGeometry(QRect(150, 140, 251, 18));
-        horizontalLayout_3 = new QHBoxLayout(layoutWidget2);
-        horizontalLayout_3->setObjectName(QString::fromUtf8("horizontalLayout_3"));
-        horizontalLayout_3->setContentsMargins(0, 0, 0, 0);
-        label_3 = new QLabel(layoutWidget2);
-        label_3->setObjectName(QString::fromUtf8("label_3"));
-
-        horizontalLayout_3->addWidget(label_3);
-
-        pprice = new QLabel(layoutWidget2);
-        pprice->setObjectName(QString::fromUtf8("pprice"));
-
-        horizontalLayout_3->addWidget(pprice);
-
-        layoutWidget3 = new QWidget(buyproducts);
-        layoutWidget3->setObjectName(QString::fromUtf8("layoutWidget3"));
-        layoutWidget3->setGeometry(QRect(150, 180, 251, 18));
-        horizontalLayout_4 = new QHBoxLayout(layoutWidget3);
-        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
-        horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
-        label_7 = new QLabel(layoutWidget3);
-        label_7->setObjectName(QString::fromUtf8("label_7"));
-
-        horizontalLayout_4->addWidget(label_7);
-
-        pcompany = new QLabel(layoutWidget3);
-        pcompany->setObjectName(QString::fromUtf8("pcompany"));
-
-        horizontalLayout_4->addWidget(pcompany);
-
-        layoutWidget4 = new QWidget(buyproducts);
-        layoutWidget4->setObjectName(QString::fromUtf8("layoutWidget4"));
-        layoutWidget4->setGeometry(QRect(150, 210, 93, 27));
-        horizontalLayout_5 = new QHBoxLayout(layoutWidget4);
-        horizontalLayout_5->setObjectName(QString::fromUtf8("horizontalLayout_5"));
-        horizontalLayout_5->setContentsMargins(0, 0, 0, 0);
-        label_5 = new QLabel(layoutWidget4);
-        label_5->setObjectName(QString::fromUtf8("label_5"));
-
-        horizontalLayout_5->addWidget(label_5);
-
-        quantity = new QSpinBox(layoutWidget4);
-        quantity->setObjectName(QString::fromUtf8("quantity"));
-        quantity->setMinimum(1);
-
-        horizontalLayout_5->addWidget(quantity);
-
-        layoutWidget5 = new QWidget(buyproducts);
-        layoutWidget5->setObjectName(QString::fromUtf8("layoutWidget5"));
-        layoutWidget5->setGeometry(QRect(50, 310, 91, 216));
-        verticalLayout = new QVBoxLayout(layoutWidget5);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_8 = new QLabel(layoutWidget5);
-        label_8->setObjectName(QString::fromUtf8("label_8"));
-
-        verticalLayout->addWidget(label_8);
-
-        name1 = new QListView(layoutWidget5);
-        name1->setObjectName(QString::fromUtf8("name1"));
-
-        verticalLayout->addWidget(name1);
-
-        layoutWidget6 = new QWidget(buyproducts);
-        layoutWidget6->setObjectName(QString::fromUtf8("layoutWidget6"));
-        layoutWidget6->setGeometry(QRect(140, 310, 81, 216));
-        verticalLayout_2 = new QVBoxLayout(layoutWidget6);
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        label_9 = new QLabel(layoutWidget6);
-        label_9->setObjectName(QString::fromUtf8("label_9"));
-
-        verticalLayout_2->addWidget(label_9);
-
-        quantity1 = new QListView(layoutWidget6);
-        quantity1->setObjectName(QString::fromUtf8("quantity1"));
-
-        verticalLayout_2->addWidget(quantity1);
-
-        layoutWidget7 = new QWidget(buyproducts);
-        layoutWidget7->setObjectName(QString::fromUtf8("layoutWidget7"));
-        layoutWidget7->setGeometry(QRect(220, 310, 72, 216));
-        verticalLayout_3 = new QVBoxLayout(layoutWidget7);
-        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
-        verticalLayout_3->setContentsMargins(0, 0, 0, 0);
-        label_10 = new QLabel(layoutWidget7);
+        exit->setGeometry(QRect(640, 390, 80, 24));
+        exit->setFont(font);
+        label_10 = new QLabel(buyproducts);
         label_10->setObjectName(QString::fromUtf8("label_10"));
-
-        verticalLayout_3->addWidget(label_10);
-
-        price1 = new QListView(layoutWidget7);
+        label_10->setGeometry(QRect(340, 290, 73, 16));
+        label_10->setFont(font);
+        label_9 = new QLabel(buyproducts);
+        label_9->setObjectName(QString::fromUtf8("label_9"));
+        label_9->setGeometry(QRect(260, 290, 79, 16));
+        label_9->setFont(font);
+        label_8 = new QLabel(buyproducts);
+        label_8->setObjectName(QString::fromUtf8("label_8"));
+        label_8->setGeometry(QRect(170, 290, 89, 16));
+        label_8->setFont(font);
+        name1 = new QListView(buyproducts);
+        name1->setObjectName(QString::fromUtf8("name1"));
+        name1->setGeometry(QRect(170, 310, 89, 214));
+        name1->setFont(font);
+        price1 = new QListView(buyproducts);
         price1->setObjectName(QString::fromUtf8("price1"));
-
-        verticalLayout_3->addWidget(price1);
-
+        price1->setGeometry(QRect(340, 310, 73, 214));
+        price1->setFont(font);
+        quantity1 = new QListView(buyproducts);
+        quantity1->setObjectName(QString::fromUtf8("quantity1"));
+        quantity1->setGeometry(QRect(260, 310, 79, 214));
+        quantity1->setFont(font);
+        pid = new QLabel(buyproducts);
+        pid->setObjectName(QString::fromUtf8("pid"));
+        pid->setGeometry(QRect(280, 130, 121, 16));
+        pid->setFont(font);
+        label = new QLabel(buyproducts);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(170, 130, 91, 16));
+        label->setFont(font);
+        label_2 = new QLabel(buyproducts);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(170, 110, 111, 16));
+        label_2->setFont(font);
+        pname = new QLabel(buyproducts);
+        pname->setObjectName(QString::fromUtf8("pname"));
+        pname->setGeometry(QRect(280, 110, 151, 16));
+        pname->setFont(font);
+        label_3 = new QLabel(buyproducts);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(170, 170, 61, 16));
+        label_3->setFont(font);
+        pprice = new QLabel(buyproducts);
+        pprice->setObjectName(QString::fromUtf8("pprice"));
+        pprice->setGeometry(QRect(280, 170, 131, 20));
+        pprice->setFont(font);
+        label_7 = new QLabel(buyproducts);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(170, 150, 71, 16));
+        label_7->setFont(font);
+        pcompany = new QLabel(buyproducts);
+        pcompany->setObjectName(QString::fromUtf8("pcompany"));
+        pcompany->setGeometry(QRect(280, 150, 231, 16));
+        pcompany->setFont(font);
+        label_5 = new QLabel(buyproducts);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setGeometry(QRect(170, 210, 81, 25));
+        label_5->setFont(font);
+        quantity = new QSpinBox(buyproducts);
+        quantity->setObjectName(QString::fromUtf8("quantity"));
+        quantity->setGeometry(QRect(280, 210, 91, 22));
+        quantity->setFont(font);
+        quantity->setMinimum(1);
+        label_11 = new QLabel(buyproducts);
+        label_11->setObjectName(QString::fromUtf8("label_11"));
+        label_11->setGeometry(QRect(0, 0, 760, 550));
+        label_11->setPixmap(QPixmap(QString::fromUtf8("../pictures/buy.jpg")));
+        label_12 = new QLabel(buyproducts);
+        label_12->setObjectName(QString::fromUtf8("label_12"));
+        label_12->setGeometry(QRect(470, 90, 91, 20));
+        label_12->setFont(font);
+        label_11->raise();
+        id->raise();
+        comboBox->raise();
+        productname->raise();
+        label_4->raise();
+        label_6->raise();
+        addtocart->raise();
+        remove->raise();
+        buy->raise();
+        exit->raise();
+        label_10->raise();
+        label_9->raise();
+        label_8->raise();
+        name1->raise();
+        price1->raise();
+        quantity1->raise();
+        pid->raise();
+        label->raise();
+        label_2->raise();
+        pname->raise();
+        label_3->raise();
+        pprice->raise();
+        label_7->raise();
+        pcompany->raise();
+        label_5->raise();
+        quantity->raise();
+        label_12->raise();
 
         retranslateUi(buyproducts);
 
@@ -237,25 +205,27 @@ public:
 
     void retranslateUi(QDialog *buyproducts)
     {
-        buyproducts->setWindowTitle(QCoreApplication::translate("buyproducts", "Dialog", nullptr));
+        buyproducts->setWindowTitle(QCoreApplication::translate("buyproducts", "Buy Products - The Winkel", nullptr));
         label_4->setText(QCoreApplication::translate("buyproducts", "YOUR CART", nullptr));
         label_6->setText(QCoreApplication::translate("buyproducts", "Available products", nullptr));
         addtocart->setText(QCoreApplication::translate("buyproducts", "ADD TO CART", nullptr));
         remove->setText(QCoreApplication::translate("buyproducts", "REMOVE", nullptr));
         buy->setText(QCoreApplication::translate("buyproducts", "BUY", nullptr));
         exit->setText(QCoreApplication::translate("buyproducts", "EXIT", nullptr));
-        label->setText(QCoreApplication::translate("buyproducts", "Product ID", nullptr));
-        pid->setText(QString());
-        label_2->setText(QCoreApplication::translate("buyproducts", "Product name", nullptr));
-        pname->setText(QString());
-        label_3->setText(QCoreApplication::translate("buyproducts", "Price", nullptr));
-        pprice->setText(QString());
-        label_7->setText(QCoreApplication::translate("buyproducts", "Company", nullptr));
-        pcompany->setText(QString());
-        label_5->setText(QCoreApplication::translate("buyproducts", "Quantity", nullptr));
-        label_8->setText(QCoreApplication::translate("buyproducts", "Product", nullptr));
-        label_9->setText(QCoreApplication::translate("buyproducts", "Quantity", nullptr));
         label_10->setText(QCoreApplication::translate("buyproducts", "Price", nullptr));
+        label_9->setText(QCoreApplication::translate("buyproducts", "Quantity", nullptr));
+        label_8->setText(QCoreApplication::translate("buyproducts", "Product", nullptr));
+        pid->setText(QString());
+        label->setText(QCoreApplication::translate("buyproducts", "Product ID :", nullptr));
+        label_2->setText(QCoreApplication::translate("buyproducts", "Product name :", nullptr));
+        pname->setText(QString());
+        label_3->setText(QCoreApplication::translate("buyproducts", "Price :", nullptr));
+        pprice->setText(QString());
+        label_7->setText(QCoreApplication::translate("buyproducts", "Company :", nullptr));
+        pcompany->setText(QString());
+        label_5->setText(QCoreApplication::translate("buyproducts", "Quantity :", nullptr));
+        label_11->setText(QString());
+        label_12->setText(QCoreApplication::translate("buyproducts", "Select Here", nullptr));
     } // retranslateUi
 
 };

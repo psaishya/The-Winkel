@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Product Details - The Winkel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <widget class="QTableView" name="tableView">
    <property name="geometry">
@@ -21,6 +25,15 @@
      <width>501</width>
      <height>371</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(71, 71, 71, 255), stop:1 rgba(255, 255, 255, 255));</string>
    </property>
   </widget>
  </widget>

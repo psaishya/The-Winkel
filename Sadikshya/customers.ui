@@ -141,13 +141,22 @@
      <height>41</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <underline>true</underline>
+    </font>
+   </property>
    <property name="text">
     <string>Haven't registered yet?</string>
    </property>
   </widget>
  </widget>
  <tabstops>
+  <tabstop>inputusername</tabstop>
+  <tabstop>inputpassword</tabstop>
   <tabstop>loginbutton</tabstop>
+  <tabstop>commandLinkButton</tabstop>
  </tabstops>
  <resources/>
  <connections/>

@@ -6,124 +6,192 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>487</width>
-    <height>412</height>
+    <width>630</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Invoice</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <widget class="QTableView" name="viewbill">
    <property name="geometry">
     <rect>
-     <x>0</x>
-     <y>40</y>
-     <width>451</width>
+     <x>220</x>
+     <y>90</y>
+     <width>408</width>
      <height>211</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
   </widget>
   <widget class="QPushButton" name="confirm">
    <property name="geometry">
     <rect>
-     <x>400</x>
-     <y>380</y>
+     <x>540</x>
+     <y>400</y>
      <width>80</width>
      <height>24</height>
     </rect>
+   </property>
+   <property name="font">
+    <font/>
    </property>
    <property name="text">
     <string>Confirm</string>
    </property>
   </widget>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>320</x>
-     <y>260</y>
-     <width>151</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
-     <widget class="QLabel" name="label">
-      <property name="text">
-       <string>Price</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="price"/>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>290</y>
-     <width>171</width>
-     <height>26</height>
-    </rect>
-   </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_2">
-    <item>
-     <widget class="QLabel" name="label_2">
-      <property name="text">
-       <string>VAT (13%)</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="vat"/>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>270</x>
-     <y>320</y>
-     <width>201</width>
-     <height>26</height>
+     <y>310</y>
+     <width>41</width>
+     <height>24</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_3">
-    <item>
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>Discount(8%) </string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="discount"/>
-    </item>
-   </layout>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string>Price</string>
+   </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QLineEdit" name="price">
    <property name="geometry">
     <rect>
-     <x>280</x>
-     <y>350</y>
-     <width>191</width>
-     <height>26</height>
+     <x>320</x>
+     <y>310</y>
+     <width>100</width>
+     <height>22</height>
     </rect>
    </property>
-   <layout class="QHBoxLayout" name="horizontalLayout_4">
-    <item>
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>TOTAL PRICE</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="total"/>
-    </item>
-   </layout>
+   <property name="font">
+    <font/>
+   </property>
   </widget>
+  <widget class="QLineEdit" name="vat">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>340</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>340</y>
+     <width>71</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string>VAT (13%)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="discount">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>310</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>310</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string>Discount(8%) </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="total">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>370</y>
+     <width>100</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>370</y>
+     <width>101</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font/>
+   </property>
+   <property name="text">
+    <string>Grand Total</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>630</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/bill.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_5</zorder>
+  <zorder>viewbill</zorder>
+  <zorder>confirm</zorder>
+  <zorder>label</zorder>
+  <zorder>price</zorder>
+  <zorder>vat</zorder>
+  <zorder>label_2</zorder>
+  <zorder>discount</zorder>
+  <zorder>label_3</zorder>
+  <zorder>total</zorder>
+  <zorder>label_4</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -31,10 +31,14 @@ public:
         if (loginpage->objectName().isEmpty())
             loginpage->setObjectName(QString::fromUtf8("loginpage"));
         loginpage->resize(1366, 768);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../pictures/minilogo_g9m_icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        loginpage->setWindowIcon(icon);
         label = new QLabel(loginpage);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(60, 20, 241, 71));
         QFont font;
+        font.setFamilies({QString::fromUtf8("Audiowide")});
         font.setPointSize(48);
         label->setFont(font);
         background = new QLabel(loginpage);
@@ -45,26 +49,28 @@ public:
         background->setScaledContents(true);
         commandLinkButton = new QCommandLinkButton(loginpage);
         commandLinkButton->setObjectName(QString::fromUtf8("commandLinkButton"));
-        commandLinkButton->setGeometry(QRect(600, 130, 924, 80));
+        commandLinkButton->setGeometry(QRect(740, 120, 501, 71));
         QFont font1;
+        font1.setFamilies({QString::fromUtf8("Audiowide")});
         font1.setPointSize(26);
         commandLinkButton->setFont(font1);
-        QIcon icon;
-        icon.addFile(QString::fromUtf8("../pictures/153-1538896_community-icon-transparent-background-png-download-transparent-transparent.png"), QSize(), QIcon::Normal, QIcon::Off);
-        commandLinkButton->setIcon(icon);
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8("../pictures/153-1538896_community-icon-transparent-background-png-download-transparent-transparent.png"), QSize(), QIcon::Normal, QIcon::Off);
+        commandLinkButton->setIcon(icon1);
         commandLinkButton->setIconSize(QSize(60, 60));
         commandLinkButton_2 = new QCommandLinkButton(loginpage);
         commandLinkButton_2->setObjectName(QString::fromUtf8("commandLinkButton_2"));
-        commandLinkButton_2->setGeometry(QRect(60, 120, 498, 80));
+        commandLinkButton_2->setGeometry(QRect(60, 120, 611, 71));
         commandLinkButton_2->setFont(font1);
-        QIcon icon1;
-        icon1.addFile(QString::fromUtf8("../pictures/556-5569894_admin-admin-vector-icon-png-transparent-png.jpg"), QSize(), QIcon::Normal, QIcon::Off);
-        commandLinkButton_2->setIcon(icon1);
+        QIcon icon2;
+        icon2.addFile(QString::fromUtf8("../pictures/556-5569894_admin-admin-vector-icon-png-transparent-png.jpg"), QSize(), QIcon::Normal, QIcon::Off);
+        commandLinkButton_2->setIcon(icon2);
         commandLinkButton_2->setIconSize(QSize(60, 60));
         background->raise();
         commandLinkButton_2->raise();
         commandLinkButton->raise();
         label->raise();
+        QWidget::setTabOrder(commandLinkButton_2, commandLinkButton);
 
         retranslateUi(loginpage);
 

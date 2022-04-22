@@ -10,76 +10,54 @@
 #define UI_MODIFYPRODUCT_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
-#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_modifyproduct
 {
 public:
-    QLabel *label;
-    QWidget *layoutWidget_2;
-    QVBoxLayout *verticalLayout;
-    QLabel *label_2;
-    QLabel *label_4;
-    QWidget *layoutWidget;
-    QVBoxLayout *verticalLayout_2;
+    QLabel *label_3;
     QPushButton *pushButtonadd;
     QPushButton *pushButtonview;
+    QLabel *label_2;
+    QLabel *label_4;
 
     void setupUi(QDialog *modifyproduct)
     {
         if (modifyproduct->objectName().isEmpty())
             modifyproduct->setObjectName(QString::fromUtf8("modifyproduct"));
-        modifyproduct->resize(490, 472);
-        label = new QLabel(modifyproduct);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(130, 30, 241, 41));
-        QFont font;
-        font.setPointSize(21);
-        font.setBold(true);
-        label->setFont(font);
-        layoutWidget_2 = new QWidget(modifyproduct);
-        layoutWidget_2->setObjectName(QString::fromUtf8("layoutWidget_2"));
-        layoutWidget_2->setGeometry(QRect(50, 110, 231, 151));
-        verticalLayout = new QVBoxLayout(layoutWidget_2);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
-        verticalLayout->setContentsMargins(0, 0, 0, 0);
-        label_2 = new QLabel(layoutWidget_2);
-        label_2->setObjectName(QString::fromUtf8("label_2"));
-        QFont font1;
-        font1.setPointSize(17);
-        label_2->setFont(font1);
-
-        verticalLayout->addWidget(label_2);
-
-        label_4 = new QLabel(layoutWidget_2);
-        label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setFont(font1);
-
-        verticalLayout->addWidget(label_4);
-
-        layoutWidget = new QWidget(modifyproduct);
-        layoutWidget->setObjectName(QString::fromUtf8("layoutWidget"));
-        layoutWidget->setGeometry(QRect(290, 110, 82, 161));
-        verticalLayout_2 = new QVBoxLayout(layoutWidget);
-        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
-        verticalLayout_2->setContentsMargins(0, 0, 0, 0);
-        pushButtonadd = new QPushButton(layoutWidget);
+        modifyproduct->resize(500, 475);
+        QIcon icon;
+        icon.addFile(QString::fromUtf8("../pictures/minilogo_g9m_icon.ico"), QSize(), QIcon::Normal, QIcon::Off);
+        modifyproduct->setWindowIcon(icon);
+        label_3 = new QLabel(modifyproduct);
+        label_3->setObjectName(QString::fromUtf8("label_3"));
+        label_3->setGeometry(QRect(0, 0, 500, 475));
+        label_3->setPixmap(QPixmap(QString::fromUtf8("../pictures/modify.jpg")));
+        pushButtonadd = new QPushButton(modifyproduct);
         pushButtonadd->setObjectName(QString::fromUtf8("pushButtonadd"));
-
-        verticalLayout_2->addWidget(pushButtonadd);
-
-        pushButtonview = new QPushButton(layoutWidget);
+        pushButtonadd->setGeometry(QRect(400, 190, 80, 24));
+        QFont font;
+        pushButtonadd->setFont(font);
+        pushButtonview = new QPushButton(modifyproduct);
         pushButtonview->setObjectName(QString::fromUtf8("pushButtonview"));
-
-        verticalLayout_2->addWidget(pushButtonview);
-
+        pushButtonview->setGeometry(QRect(400, 245, 80, 24));
+        pushButtonview->setFont(font);
+        label_2 = new QLabel(modifyproduct);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(170, 180, 141, 41));
+        QFont font1;
+        font1.setPointSize(14);
+        label_2->setFont(font1);
+        label_4 = new QLabel(modifyproduct);
+        label_4->setObjectName(QString::fromUtf8("label_4"));
+        label_4->setGeometry(QRect(170, 240, 221, 31));
+        label_4->setFont(font1);
 
         retranslateUi(modifyproduct);
 
@@ -88,12 +66,12 @@ public:
 
     void retranslateUi(QDialog *modifyproduct)
     {
-        modifyproduct->setWindowTitle(QCoreApplication::translate("modifyproduct", "Dialog", nullptr));
-        label->setText(QCoreApplication::translate("modifyproduct", "Modify Product", nullptr));
-        label_2->setText(QCoreApplication::translate("modifyproduct", "Add/Update", nullptr));
-        label_4->setText(QCoreApplication::translate("modifyproduct", "View Product Details", nullptr));
+        modifyproduct->setWindowTitle(QCoreApplication::translate("modifyproduct", "Modify Products - The Winkel", nullptr));
+        label_3->setText(QString());
         pushButtonadd->setText(QCoreApplication::translate("modifyproduct", "click", nullptr));
         pushButtonview->setText(QCoreApplication::translate("modifyproduct", "click", nullptr));
+        label_2->setText(QCoreApplication::translate("modifyproduct", "Add/Update", nullptr));
+        label_4->setText(QCoreApplication::translate("modifyproduct", "View Product Details", nullptr));
     } // retranslateUi
 
 };

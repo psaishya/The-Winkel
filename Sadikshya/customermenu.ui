@@ -6,39 +6,123 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>727</width>
-    <height>373</height>
+    <width>600</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Customer Menu-The Winkel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../pictures/minilogo_g9m_icon.ico</normaloff>../pictures/minilogo_g9m_icon.ico</iconset>
   </property>
   <widget class="QCommandLinkButton" name="Buyproductsbutton">
    <property name="geometry">
     <rect>
-     <x>170</x>
-     <y>170</y>
-     <width>168</width>
-     <height>41</height>
+     <x>260</x>
+     <y>90</y>
+     <width>111</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="text">
-    <string>Buy products</string>
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../pictures/download-icon-buy-131964784705748631_512.png</normaloff>../pictures/download-icon-buy-131964784705748631_512.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
    </property>
   </widget>
   <widget class="QCommandLinkButton" name="Givefeedbackbutton">
    <property name="geometry">
     <rect>
-     <x>430</x>
-     <y>170</y>
-     <width>168</width>
-     <height>41</height>
+     <x>440</x>
+     <y>90</y>
+     <width>91</width>
+     <height>131</height>
     </rect>
    </property>
    <property name="text">
-    <string>Give feedback</string>
+    <string>
+</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../pictures/feedback-icon-png-image-free-download.png</normaloff>../pictures/feedback-icon-png-image-free-download.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>90</width>
+     <height>90</height>
+    </size>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../pictures/customerinterface.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>190</y>
+     <width>41</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Buy </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>190</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Audiowide</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Rate Us</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>Buyproductsbutton</zorder>
+  <zorder>Givefeedbackbutton</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
  </widget>
  <resources/>
  <connections/>
