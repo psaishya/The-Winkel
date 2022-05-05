@@ -7,7 +7,7 @@ addproduct::addproduct(QWidget *parent) :
 {
     ui->setupUi(this);
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
+    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
 
     if (productdb.open())
     {
@@ -20,9 +20,6 @@ addproduct::addproduct(QWidget *parent) :
     QSqlQueryModel *modal=new QSqlQueryModel();
     modal->setQuery("SELECT Product_Id FROM Productdetails");
     ui->listView->setModel(modal);
-
-
-    //productdb.close();
 
 }
 
@@ -78,7 +75,7 @@ void addproduct::on_pushButtonupdate_clicked()
         }
         else
             pstatus="Unavailable";
-        //pstatus =ui->inputpstatus->text();
+
         QSqlQuery qry2;
         productdb.open();
         if(qry2.exec("update Productdetails set product_id='"+productid+"', pname='"+pname+"',pcompany='"+pcompany+"',pprice='"+pprice+"',pstatus='"+pstatus+"'where product_id='"+productid+"'"))
@@ -116,7 +113,6 @@ void addproduct::on_pushButtondelete_clicked()
     else
         pstatus="Unavailable";
 
-    //pstatus =ui->inputpstatus->text();
     QSqlQuery qry2;
     productdb.open();
     if(qry2.exec("Delete from Productdetails where product_id='"+productid+"'"))
@@ -174,7 +170,7 @@ void addproduct::on_cbox_currentTextChanged(const QString &arg1)
 void addproduct::on_showbutton_clicked()
 {
     QSqlDatabase productdb =QSqlDatabase :: addDatabase("QSQLITE");
-    productdb.setDatabaseName("C:/Users/Shashank/OneDrive/Desktop/the final project/The-Winkel/database/winkel.db");
+    productdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
 
         productdb.open();
         if (productdb.open())
@@ -191,6 +187,5 @@ void addproduct::on_showbutton_clicked()
 
         ui->cbox->setModel(modal);
 
-        //productdb.close();
 }
 

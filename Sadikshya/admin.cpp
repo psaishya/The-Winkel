@@ -33,7 +33,6 @@ void admin::on_checkusernamebutton_clicked()
 
 void admin::on_loginbutton_clicked()
 {
-    //ui->inputpassword->setDisabled(false);
     password=ui->inputpassword->text();
     if(password=="admin")
     {
@@ -41,8 +40,6 @@ void admin::on_loginbutton_clicked()
         adminmenu admenu;
         admenu.setModal(true);
         admenu.exec();
-
-        //break;
     }
 
     else

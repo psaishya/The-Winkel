@@ -37,7 +37,7 @@ public:
         adminmenu->setWindowIcon(icon);
         customerdetail = new QLabel(adminmenu);
         customerdetail->setObjectName(QString::fromUtf8("customerdetail"));
-        customerdetail->setGeometry(QRect(160, 150, 171, 31));
+        customerdetail->setGeometry(QRect(170, 140, 171, 31));
         QFont font;
         font.setPointSize(10);
         customerdetail->setFont(font);
@@ -53,7 +53,7 @@ public:
         pushButtonmodify->setFont(font1);
         pushButtonview = new QPushButton(adminmenu);
         pushButtonview->setObjectName(QString::fromUtf8("pushButtonview"));
-        pushButtonview->setGeometry(QRect(20, 150, 110, 25));
+        pushButtonview->setGeometry(QRect(20, 140, 110, 25));
         pushButtonview->setFont(font1);
         label_2 = new QLabel(adminmenu);
         label_2->setObjectName(QString::fromUtf8("label_2"));

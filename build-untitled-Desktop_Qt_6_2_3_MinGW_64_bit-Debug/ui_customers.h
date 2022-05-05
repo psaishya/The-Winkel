@@ -55,11 +55,11 @@ public:
         inputusername->setFont(font);
         usernamelabel = new QLabel(customers);
         usernamelabel->setObjectName(QString::fromUtf8("usernamelabel"));
-        usernamelabel->setGeometry(QRect(310, 170, 181, 31));
+        usernamelabel->setGeometry(QRect(330, 170, 181, 31));
         usernamelabel->setFont(font);
         passwordlabel = new QLabel(customers);
         passwordlabel->setObjectName(QString::fromUtf8("passwordlabel"));
-        passwordlabel->setGeometry(QRect(320, 280, 161, 21));
+        passwordlabel->setGeometry(QRect(330, 270, 161, 31));
         passwordlabel->setFont(font);
         inputpassword = new QLineEdit(customers);
         inputpassword->setObjectName(QString::fromUtf8("inputpassword"));
@@ -76,7 +76,6 @@ public:
         commandLinkButton->setObjectName(QString::fromUtf8("commandLinkButton"));
         commandLinkButton->setGeometry(QRect(280, 460, 251, 41));
         QFont font2;
-        font2.setFamilies({QString::fromUtf8("Audiowide")});
         font2.setUnderline(true);
         commandLinkButton->setFont(font2);
         QWidget::setTabOrder(inputusername, inputpassword);

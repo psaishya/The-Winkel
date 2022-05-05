@@ -20,15 +20,14 @@
   <widget class="QLabel" name="msglabel">
    <property name="geometry">
     <rect>
-     <x>300</x>
-     <y>310</y>
+     <x>280</x>
+     <y>270</y>
      <width>351</width>
      <height>41</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Audiowide</family>
      <pointsize>11</pointsize>
     </font>
    </property>
@@ -59,7 +58,7 @@
    <property name="geometry">
     <rect>
      <x>370</x>
-     <y>420</y>
+     <y>350</y>
      <width>171</width>
      <height>21</height>
     </rect>
@@ -76,8 +75,8 @@
   <widget class="QLineEdit" name="inputpassword">
    <property name="geometry">
     <rect>
-     <x>330</x>
-     <y>470</y>
+     <x>320</x>
+     <y>390</y>
      <width>251</width>
      <height>41</height>
     </rect>
@@ -128,8 +127,8 @@
   <widget class="QPushButton" name="checkusernamebutton">
    <property name="geometry">
     <rect>
-     <x>600</x>
-     <y>240</y>
+     <x>530</x>
+     <y>200</y>
      <width>41</width>
      <height>41</height>
     </rect>
@@ -157,40 +156,20 @@
     <string>AUTHENTICATE</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>300</x>
-     <y>260</y>
-     <width>291</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Audiowide</family>
-     <pointsize>14</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>Click here to verify User ID</string>
-   </property>
-  </widget>
+  <zorder>checkusernamebutton</zorder>
   <zorder>background</zorder>
   <zorder>msglabel</zorder>
   <zorder>passwordlabel</zorder>
   <zorder>inputpassword</zorder>
   <zorder>inputusername</zorder>
   <zorder>usernamelabel</zorder>
-  <zorder>checkusernamebutton</zorder>
   <zorder>loginbutton</zorder>
-  <zorder>label</zorder>
  </widget>
  <tabstops>
   <tabstop>inputusername</tabstop>
+  <tabstop>checkusernamebutton</tabstop>
   <tabstop>inputpassword</tabstop>
   <tabstop>loginbutton</tabstop>
-  <tabstop>checkusernamebutton</tabstop>
  </tabstops>
  <resources/>
  <connections/>

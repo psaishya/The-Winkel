@@ -11,7 +11,7 @@ customers::customers(QWidget *parent) :
 {
     ui->setupUi(this);
     customerdb =QSqlDatabase :: addDatabase("QSQLITE");
-    customerdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
+    customerdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
     if (customerdb.open())
     {
         qDebug()<<"opened\n";
@@ -51,20 +51,12 @@ void customers::on_loginbutton_clicked()
 
    if (qry.exec(" select * from register where username = '"+username+"' and password = '"+password+"'"))
     {
-            //QString username_db;
-            //QString password_db;
             int count=0;
 
                 while (qry.next()){
                     count ++;
-                 //username_db = qry.value(2).toString();
-                // password_db = qry.value(3).toString();
+
                 }
-               //if (username_db==username && password_db==password){
-               //      QMessageBox :: information (this,"","Welcome to customer interface ");
-              // }
-               //else
-                //     QMessageBox :: warning (this,"","try again ");
                 if(count==1)
                 {
                      customermenu cmenu;

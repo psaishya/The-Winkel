@@ -30,7 +30,6 @@ public:
     QLabel *usernamelabel;
     QPushButton *checkusernamebutton;
     QPushButton *loginbutton;
-    QLabel *label;
 
     void setupUi(QDialog *admin)
     {
@@ -42,9 +41,8 @@ public:
         admin->setWindowIcon(icon);
         msglabel = new QLabel(admin);
         msglabel->setObjectName(QString::fromUtf8("msglabel"));
-        msglabel->setGeometry(QRect(300, 310, 351, 41));
+        msglabel->setGeometry(QRect(280, 270, 351, 41));
         QFont font;
-        font.setFamilies({QString::fromUtf8("Audiowide")});
         font.setPointSize(11);
         msglabel->setFont(font);
         background = new QLabel(admin);
@@ -54,13 +52,13 @@ public:
         background->setScaledContents(true);
         passwordlabel = new QLabel(admin);
         passwordlabel->setObjectName(QString::fromUtf8("passwordlabel"));
-        passwordlabel->setGeometry(QRect(370, 420, 171, 21));
+        passwordlabel->setGeometry(QRect(370, 350, 171, 21));
         QFont font1;
         font1.setPointSize(18);
         passwordlabel->setFont(font1);
         inputpassword = new QLineEdit(admin);
         inputpassword->setObjectName(QString::fromUtf8("inputpassword"));
-        inputpassword->setGeometry(QRect(330, 470, 251, 41));
+        inputpassword->setGeometry(QRect(320, 390, 251, 41));
         QFont font2;
         font2.setPointSize(18);
         font2.setBold(false);
@@ -76,30 +74,22 @@ public:
         usernamelabel->setFont(font1);
         checkusernamebutton = new QPushButton(admin);
         checkusernamebutton->setObjectName(QString::fromUtf8("checkusernamebutton"));
-        checkusernamebutton->setGeometry(QRect(600, 240, 41, 41));
+        checkusernamebutton->setGeometry(QRect(530, 200, 41, 41));
         loginbutton = new QPushButton(admin);
         loginbutton->setObjectName(QString::fromUtf8("loginbutton"));
         loginbutton->setGeometry(QRect(330, 540, 251, 41));
         loginbutton->setFont(font2);
-        label = new QLabel(admin);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(300, 260, 291, 20));
-        QFont font3;
-        font3.setFamilies({QString::fromUtf8("Audiowide")});
-        font3.setPointSize(14);
-        label->setFont(font3);
+        checkusernamebutton->raise();
         background->raise();
         msglabel->raise();
         passwordlabel->raise();
         inputpassword->raise();
         inputusername->raise();
         usernamelabel->raise();
-        checkusernamebutton->raise();
         loginbutton->raise();
-        label->raise();
-        QWidget::setTabOrder(inputusername, inputpassword);
+        QWidget::setTabOrder(inputusername, checkusernamebutton);
+        QWidget::setTabOrder(checkusernamebutton, inputpassword);
         QWidget::setTabOrder(inputpassword, loginbutton);
-        QWidget::setTabOrder(loginbutton, checkusernamebutton);
 
         retranslateUi(admin);
 
@@ -115,7 +105,6 @@ public:
         usernamelabel->setText(QCoreApplication::translate("admin", "USER ID", nullptr));
         checkusernamebutton->setText(QString());
         loginbutton->setText(QCoreApplication::translate("admin", "AUTHENTICATE", nullptr));
-        label->setText(QCoreApplication::translate("admin", "Click here to verify User ID", nullptr));
     } // retranslateUi
 
 };

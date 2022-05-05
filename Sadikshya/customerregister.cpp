@@ -9,7 +9,7 @@ customerregister::customerregister(QWidget *parent) :
     ui->setupUi(this);
     customerdb =QSqlDatabase :: addDatabase("QSQLITE");
 
-   customerdb.setDatabaseName("C:/Users/hp/Desktop/new project/The-Winkel/database/winkel.db");
+   customerdb.setDatabaseName("E:/Sadikshya/KU/1st year 2nd sem/project/GITHUB/The-Winkel/database/winkel.db");
 
 
 

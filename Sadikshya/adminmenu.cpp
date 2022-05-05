@@ -17,7 +17,7 @@ adminmenu::~adminmenu()
 void adminmenu::on_pushButtonmodify_clicked()
 {
     modifyproduct mdyproduct;
-    mdyproduct.setModal(true); //mdy->modify
+    mdyproduct.setModal(true);
     mdyproduct.exec();
 }
 

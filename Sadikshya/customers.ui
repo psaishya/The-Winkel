@@ -63,7 +63,7 @@
   <widget class="QLabel" name="usernamelabel">
    <property name="geometry">
     <rect>
-     <x>310</x>
+     <x>330</x>
      <y>170</y>
      <width>181</width>
      <height>31</height>
@@ -81,10 +81,10 @@
   <widget class="QLabel" name="passwordlabel">
    <property name="geometry">
     <rect>
-     <x>320</x>
-     <y>280</y>
+     <x>330</x>
+     <y>270</y>
      <width>161</width>
-     <height>21</height>
+     <height>31</height>
     </rect>
    </property>
    <property name="font">
@@ -143,7 +143,6 @@
    </property>
    <property name="font">
     <font>
-     <family>Audiowide</family>
      <underline>true</underline>
     </font>
    </property>
